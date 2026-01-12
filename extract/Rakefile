@@ -43,7 +43,8 @@ task :download do
   puts "Downloaded to #{zip_path}."
 
   installer_path = "tmp/aviutl2_setup.exe"
-  installer_filename = html_content.match(/<A HREF="(AviUtl2beta[0-9a-z]+_setup\.exe)">/)[1]
+  installer_filename =
+    html_content.match(/<A HREF="(AviUtl2beta[0-9a-z]+_setup\.exe)">/)[1]
   installer_url = html_url + installer_filename
   puts "Downloading installer #{installer_url}..."
   URI.open(installer_url) do |remote_file|
@@ -78,7 +79,7 @@ task :extract_locale do
       next
     end
     installer_path = "tmp/aviutl2_setup.exe"
-    sh "#{installer_path} /SILENT /DIR=\"#{File.expand_path('tmp/aviutl2_installer')}\""
+    sh "#{installer_path} /SILENT /DIR=\"#{File.expand_path("tmp/aviutl2_installer")}\""
   end
 
   cp eng_path, "../locales/original_english.aul2"
@@ -134,7 +135,7 @@ task :list_effects do
         [effect_name, object_0.keys]
       end
 
-  File.write("./effects.json", JSON.pretty_generate(effects))
+  File.write("./effects.json", JSON.pretty_generate(effects) + "\n")
   puts "Wrote effects list to ./tmp/effects.json."
 end
 
