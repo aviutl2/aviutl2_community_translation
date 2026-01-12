@@ -15,6 +15,8 @@ defaults:
 jobs:
   update:
     runs-on: windows-latest
+    permissions:
+      contents: write
     steps:
       - name: Prevent auto line ending conversion
         run: git config --global core.autocrlf false
@@ -35,3 +37,13 @@ jobs:
         run: |
           bundle install
           rake
+
+      - name: Commit changes
+        working-directory: ${{ github.workspace }}
+        run: |
+          git config --local user.name "GitHub Action"
+          git config --local user.email "actions@github.com"
+
+          git add .
+          git commit -m "feat: 内容を更新" || echo "No changes to commit"
+          git push origin main || echo "No changes to push"
