@@ -58,6 +58,7 @@ task :extract_locale do
 
   puts "Extracting locale data..."
   data_dir = "C:/ProgramData/aviutl2"
+  eng_path = "#{data_dir}/Language/English.aul2"
 
   if File.exist?(eng_path)
     puts "Locale data already exists at #{eng_path}."
@@ -91,8 +92,6 @@ task :extract_locale do
     end
   end
 
-  sh "tree #{data_dir}"
-  eng_path = "#{data_dir}/Language/English.aul2"
   cp eng_path, "../locales/original_english.aul2"
 end
 
