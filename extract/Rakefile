@@ -42,6 +42,15 @@ task :download do
   end
   puts "Downloaded to #{zip_path}."
 
+  installer_path = "tmp/aviutl2_setup.exe"
+  installer_filename = html_content.match(/<A HREF="(AviUtl2beta[0-9a-z]+_setup\.exe)">/)[1]
+  installer_url = html_url + installer_filename
+  puts "Downloading installer #{installer_url}..."
+  URI.open(installer_url) do |remote_file|
+    File.open(installer_path, "wb") { |file| file.write(remote_file.read) }
+  end
+  puts "Downloaded installer to #{installer_path}."
+
   Zip::File.open(zip_path) do |zip_file|
     zip_file.each do |entry|
       dest_path = File.join("tmp", "aviutl2", entry.name)
@@ -63,34 +72,13 @@ task :extract_locale do
   if File.exist?(eng_path)
     puts "Locale data already exists at #{eng_path}."
   else
-    puts "Launching AviUtl2 to extract locale data..."
+    puts "Running AviUtl2 installer to extract locale data..."
     unless ENABLE_EXTRACTION
       puts "Locale extraction is disabled. Set #{ENABLE_EXTRACTION_KEY}=1 to enable."
       next
     end
-
-    mkdir_p data_dir
-    puts "Installing ExtractPlugin.aux2 for locale extraction."
-    mkdir_p "#{data_dir}/Plugin"
-    cp "./plugin/build/Release/ExtractPlugin.dll",
-       "#{data_dir}/Plugin/ExtractPlugin.aux2"
-    mkdir_p "#{data_dir}/extract"
-    File.write("#{data_dir}/extract/mode.txt", "reboot")
-    File.write("#{data_dir}/module.ini", <<~INI)
-      [ExtractPlugin.aux2]
-      trust=1
-    INI
-
-    current_time = Time.now
-    spawn("tmp/aviutl2/AviUtl2.exe")
-    while Time.now - current_time < 60
-      sleep 1
-      unless File.exist?("#{data_dir}/extract/mode.txt")
-        puts "Locale extraction completed."
-        break
-      end
-    end
-    sh "tree /f #{data_dir}"
+    installer_path = "tmp/aviutl2_setup.exe"
+    sh "#{installer_path} /SILENT /DIR=\"#{File.expand_path('tmp/aviutl2_installer')}\""
   end
 
   cp eng_path, "../locales/original_english.aul2"
