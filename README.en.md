@@ -14,6 +14,10 @@ Open the `.aul2` file in the `./locales/` folder and download the translation fi
 Please use <https://crowdin.com/project/aviutl2-community-translation>.
 The repository is synchronized with Crowdin periodically.
 
+> [!TIP]
+> When translating, you might want to use "Multilingual" layout to use English as reference.
+> You can switch to "Multilingual" layout from the layout selector at the top right of the translation editor.
+
 ## License
 
 The translation files in this repository are provided under the [MIT License](LICENSE).

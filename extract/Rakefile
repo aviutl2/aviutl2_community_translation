@@ -287,12 +287,25 @@ task :update_aul2 do
   require "inifile"
 
   main_translations = IniFile.load("../locales/original_english.aul2")
+  english_editor_translations =
+    (
+      File.exist?("../translations/en/editor.yml") ?
+        YAML.load_file("../translations/en/editor.yml") :
+        {}
+    ).to_h
+  english_effect_translations =
+    (
+      File.exist?("../translations/en/effects.yml") ?
+        YAML.load_file("../translations/en/effects.yml") :
+        {}
+    ).to_h
   languages.each do |lang|
     puts "Building localized .aul2 for #{lang}..."
     editor_file_path = "../translations/#{lang}/editor.yml"
     effect_file_path = "../translations/#{lang}/effects.yml"
     editor_translations = YAML.load_file(editor_file_path).to_h
     effect_translations = YAML.load_file(effect_file_path).to_h
+    use_english_fallback = !%i[en ja].include?(lang)
 
     sections = {}
     num_translated = 0
@@ -304,10 +317,19 @@ task :update_aul2 do
         if section == "Effect" && effect_translations.dig(key, key)
           translated_value = effect_translations.dig(key, key)
         end
+        fallback_value = nil
+        if use_english_fallback
+          if section == "Effect"
+            fallback_value = english_effect_translations.dig(key, key)
+          end
+          fallback_value ||= english_editor_translations.dig(section, key)
+        end
         num_total += 1
         if is_translated?(translated_value&.chomp)
           num_translated += 1
           sections[section][key] = translated_value.chomp
+        elsif is_translated?(fallback_value&.chomp)
+          sections[section][key] = fallback_value.chomp
         else
           sections[section][key] = value
         end
@@ -320,6 +342,13 @@ task :update_aul2 do
         if is_translated?(translated_value&.chomp)
           num_translated += 1
           sections[effect_name][key] = translated_value.chomp
+        elsif use_english_fallback &&
+              is_translated?(
+                english_effect_translations.dig(effect_name, key)&.chomp
+              )
+          sections[effect_name][
+            key
+          ] = english_effect_translations.dig(effect_name, key).chomp
         end
       end
     end
