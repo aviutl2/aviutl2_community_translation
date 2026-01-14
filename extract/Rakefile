@@ -432,21 +432,28 @@ namespace :crowdin do
         sleep 5
       end
     end
-    download_url = crowdin.download_project_translations(build_id)["data"]["url"]
+    download_url =
+      crowdin.download_project_translations(build_id)["data"]["url"]
     zip_path = "tmp/crowdin_translations.zip"
     URI.open(download_url) do |remote_file|
       File.open(zip_path, "wb") { |file| file.write(remote_file.read) }
     end
 
-    Zip::File.open(zip_path) do |zip_file|
-      zip_file.each do |entry|
-        dest_path = File.join("..", "translations", entry.name)
-        mkdir_p File.dirname(dest_path) unless Dir.exist?(File.dirname(dest_path))
-        puts "Extracting #{entry.name} to #{dest_path}..."
-        zip_file.extract(entry, dest_path) unless File.exist?(dest_path)
+      Dir.chdir("..") do
+        Zip::File.open("./extract/"+zip_path) do |zip_file|
+        zip_file.each do |entry|
+          next if entry.name.end_with?("/")
+          dest_path = File.join(".", "translations", entry.name)
+          unless Dir.exist?(File.dirname(dest_path))
+            mkdir_p File.dirname(dest_path)
+          end
+          puts "Extracting #{entry.name} to #{dest_path}..."
+          rm dest_path if File.exist?(dest_path)
+          zip_file.extract(entry, dest_path)
+        end
       end
     end
   end
 
-  task :sync => [:upload_source, :download_translations]
+  task sync: %i[upload_source download_translations]
 end
