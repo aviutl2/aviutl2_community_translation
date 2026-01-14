@@ -77,4 +77,37 @@ Effect:
   # Interpolation(Time)
   '補間移動(時間制御)': |
     Interpolierte Bewegung (Zeitsteuerung)
+  # Random
+  'ランダム移動': |
+    Zufällige Bewegung
+  # Teleportation
+  '瞬間移動': |
+    Sofortige Bewegung
+  # CenterX
+  '中心X': |
+    X Zentrieren
+  # CenterY
+  '中心Y': |
+    Y Zentrieren
+  # CenterZ
+  '中心Z': |
+    Z Zentrieren
+  # RotateX
+  'X軸回転': |
+    X Rotieren
+  # RotateY
+  'Y軸回転': |
+    Y Rotieren
+  # TargetX
+  '目標X': |
+    Ziel X
+  # TargetY
+  '目標Y': |
+    Ziel Y
+  # TargetZ
+  '目標Z': |
+    Ziel Z
+  # Aspect
+  '縦横比': |
+    Seitenverhältnis
 

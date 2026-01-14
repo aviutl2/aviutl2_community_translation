@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (de)
 ; Generated automatically. Do not edit directly.
-; Translated 26 of 1164 entries (2.23%).
+; Translated 37 of 1164 entries (3.18%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -163,18 +163,18 @@
 直線移動(時間制御)=Lineare Bewegung (Zeitsteuerung)
 補間移動=Interpolated Movement
 補間移動(時間制御)=Interpolierte Bewegung (Zeitsteuerung)
-ランダム移動=Random Movement
-瞬間移動=Instant Movement
-中心X=Center X
-中心Y=Center Y
-中心Z=Center Z
-X軸回転=X Rotation
-Y軸回転=Y Rotation
+ランダム移動=Zufällige Bewegung
+瞬間移動=Sofortige Bewegung
+中心X=X Zentrieren
+中心Y=Y Zentrieren
+中心Z=Z Zentrieren
+X軸回転=X Rotieren
+Y軸回転=Y Rotieren
 Z軸回転=Z Rotation
-目標X=Target X
-目標Y=Target Y
-目標Z=Target Z
-縦横比=Aspect Ratio
+目標X=Ziel X
+目標Y=Ziel Y
+目標Z=Ziel Z
+縦横比=Seitenverhältnis
 幅=Width
 横幅=Horizontal Width
 高さ=Height
