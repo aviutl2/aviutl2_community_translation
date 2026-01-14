@@ -228,6 +228,7 @@ task :update_source do
     effect_file_path = "../translations/#{lang}/effects.yml"
     current_effect_translations =
       (File.exist?(effect_file_path) ? YAML.load_file(effect_file_path) : {})
+      current_effect_translations ||= {}
     effect_translations = {}
     effects.each do |effect_name, keys|
       effect_translations[effect_name] = { effect_name => nil }
@@ -439,8 +440,8 @@ namespace :crowdin do
       File.open(zip_path, "wb") { |file| file.write(remote_file.read) }
     end
 
-      Dir.chdir("..") do
-        Zip::File.open("./extract/"+zip_path) do |zip_file|
+    Dir.chdir("..") do
+      Zip::File.open("./extract/" + zip_path) do |zip_file|
         zip_file.each do |entry|
           next if entry.name.end_with?("/")
           dest_path = File.join(".", "translations", entry.name)
