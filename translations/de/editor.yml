@@ -1,1 +1,80 @@
+Effect:
+  # ParticleOutput
+  'パーティクル出力': |
+    Partikelausgabe
+  # GroupControl(Audio)
+  'グループ制御(音声)': |
+    Gruppensteuerung (Audio)
+  # Light(Camera)
+  '並行光源(カメラ制御)': |
+    Paralleles Licht (Kamerasteuerung)
+  # AmbientLight(Camera)
+  '環境光(カメラ制御)': |
+    Ambientes-Licht (Kamerasteuerung)
+  # LightBloom(Camera)
+  'ライトブルーム(カメラ制御)': |
+    Lichtschein (Kamerasteuerung)
+  # TimeControl(Object)
+  '時間制御(オブジェクト)': |
+    Zeitsteuerung (Objekt)
+  # CameraShake
+  '手ぶれ': |
+    Wackeln (Kamera)
+  # RotateBaseTarget
+  '目標中心回転': |
+    Rotation der Zielmitte
+  # BasicEffect
+  '基本効果': |
+    Basiseffekte
+  # AudioEffect
+  '音声効果': |
+    Audioeffekte
+  # Transform
+  '変形': |
+    Deformation
+  # LightEffect
+  '光効果': |
+    Lichteffekte
+  # Decoration
+  '装飾': |
+    Dekorieren
+  # Color
+  '色調整': |
+    Farbänderung
+  # Process
+  '加工': |
+    Verarbeitung
+  # Transition
+  '切り替え効果': |
+    Übergangseffekte
+  # Animation
+  'アニメーション効果': |
+    Animationseffekte
+  # CustomObject
+  'カスタムオブジェクト': |
+    Benutzerdefinierte Objekte
+  # CameraEffect
+  'カメラ効果': |
+    Kameraeffekte
+  # ScreenEffect
+  '画面効果': |
+    Bildschirmeffekte
+  # ObjectControl
+  'オブジェクト制御': |
+    Objektkontrolle
+  # NoMove
+  '移動無し': |
+    Keine Bewegung
+  # PlayRange
+  '再生範囲': |
+    Wiedergabebereich
+  # Linear
+  '直線移動': |
+    Lineare Bewegung
+  # Linear(Time)
+  '直線移動(時間制御)': |
+    Lineare Bewegung (Zeitsteuerung)
+  # Interpolation(Time)
+  '補間移動(時間制御)': |
+    Interpolierte Bewegung (Zeitsteuerung)
 

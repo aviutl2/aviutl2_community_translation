@@ -1,11 +1,11 @@
 ; AviUtl2 Community Translation (de)
 ; Generated automatically. Do not edit directly.
-; Translated 0 of 1164 entries (0.0%).
+; Translated 26 of 1164 entries (2.23%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
 [Effect]
-動画ファイル=VideoFile
+動画ファイル=Video File
 画像ファイル=ImageFile
 音声ファイル=AudioFile
 テキスト=Text
@@ -17,10 +17,10 @@
 音声再生=AudioOutput
 映像再生=MovieOutput
 基本出力=BasicOutput
-パーティクル出力=Particle Output
+パーティクル出力=Partikelausgabe
 部分フィルタ=Partial Filter
 グループ制御=Group Control
-グループ制御(音声)=Group Control (Audio)
+グループ制御(音声)=Gruppensteuerung (Audio)
 カメラ制御=Camera Control
 音声波形表示=AudioWaveform
 色調補正=ColorCorrect
@@ -66,9 +66,9 @@
 シーンチェンジ=SceneChange
 振動=Quake
 スクリプト制御=ScriptControl
-並行光源(カメラ制御)=Parallel Light (Camera Control)
-環境光(カメラ制御)=Ambient Light (Camera Control)
-ライトブルーム(カメラ制御)=Light Bloom (Camera Control)
+並行光源(カメラ制御)=Paralleles Licht (Kamerasteuerung)
+環境光(カメラ制御)=Ambientes-Licht (Kamerasteuerung)
+ライトブルーム(カメラ制御)=Lichtschein (Kamerasteuerung)
 材質設定(カメラ制御)=Material(Camera)
 カメラ制御オプション=CameraOption
 座標=Position
@@ -79,7 +79,7 @@
 音量フェード=Fade(Audio)
 モノラル化=AudioMono
 音量調整=Volume
-時間制御(オブジェクト)=Time Control (Object)
+時間制御(オブジェクト)=Zeitsteuerung (Objekt)
 オーディオバッファ=AudioBuffer
 モデルファイル=ModelFile
 枠線=FrameLine
@@ -139,30 +139,30 @@
 図形で隠す(放射)(シーンチェンジ)=HideFigureRadial(SceneChange)
 砕け散る(シーンチェンジ)=Shatter(SceneChange)
 ページめくり(シーンチェンジ)=Page(SceneChange)
-手ぶれ=Camera Shake
-目標中心回転=Target Center Rotation
+手ぶれ=Wackeln (Kamera)
+目標中心回転=Rotation der Zielmitte
 目標サイズ固定視野角=Fixed FOV for Target Size
-基本効果=Basic Effects
-音声効果=Audio Effects
+基本効果=Basiseffekte
+音声効果=Audioeffekte
 変形=Deformation
-光効果=Light Effects
-装飾=Decoration
+光効果=Lichteffekte
+装飾=Dekorieren
 抽出=Extraction
-色調整=Color Adjustment
-加工=Processing
+色調整=Farbänderung
+加工=Verarbeitung
 配置=Arrangement
-切り替え効果=Transition Effects
-アニメーション効果=Animation Effects
-カスタムオブジェクト=Custom Objects
-カメラ効果=Camera Effects
-画面効果=Screen Effects
-オブジェクト制御=Object Control
-移動無し=No Movement
-再生範囲=Playback Range
-直線移動=Linear Movement
-直線移動(時間制御)=Linear Movement (Time Control)
+切り替え効果=Übergangseffekte
+アニメーション効果=Animationseffekte
+カスタムオブジェクト=Benutzerdefinierte Objekte
+カメラ効果=Kameraeffekte
+画面効果=Bildschirmeffekte
+オブジェクト制御=Objektkontrolle
+移動無し=Keine Bewegung
+再生範囲=Wiedergabebereich
+直線移動=Lineare Bewegung
+直線移動(時間制御)=Lineare Bewegung (Zeitsteuerung)
 補間移動=Interpolated Movement
-補間移動(時間制御)=Interpolated Movement (Time Control)
+補間移動(時間制御)=Interpolierte Bewegung (Zeitsteuerung)
 ランダム移動=Random Movement
 瞬間移動=Instant Movement
 中心X=Center X

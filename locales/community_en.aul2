@@ -1,11 +1,11 @@
 ; AviUtl2 Community Translation (en)
 ; Generated automatically. Do not edit directly.
-; Translated 938 of 1164 entries (80.58%).
+; Translated 945 of 1170 entries (80.77%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
 [Effect]
-動画ファイル=VideoFile
+動画ファイル=Video File
 画像ファイル=ImageFile
 音声ファイル=AudioFile
 テキスト=Text
@@ -1177,4 +1177,12 @@ Alt+左クリックドラックで右クリックドラック操作=Assign right
 最大=Max
 平均=Avg
 中央=Med
+
+[動画ファイル]
+動画ファイル=Video File
+再生位置=Playback Position
+再生速度=Playback Speed
+ファイル=File
+トラック=Track
+ループ再生=Loop
 
