@@ -188,7 +188,9 @@ task :update_source do
   languages.each do |lang|
     editor_file_path = "../translations/#{lang}/editor.yml"
     current_translations =
-      (File.exist?(editor_file_path) ? YAML.load_file(editor_file_path) : {})
+      (
+        File.exist?(editor_file_path) ? YAML.load_file(editor_file_path) : {}
+      ).to_h
     translations = {}
     main_translations.each_section do |section|
       translations[section] = {}
@@ -227,8 +229,9 @@ task :update_source do
 
     effect_file_path = "../translations/#{lang}/effects.yml"
     current_effect_translations =
-      (File.exist?(effect_file_path) ? YAML.load_file(effect_file_path) : {})
-      current_effect_translations ||= {}
+      (
+        File.exist?(effect_file_path) ? YAML.load_file(effect_file_path) : {}
+      ).to_h
     effect_translations = {}
     effects.each do |effect_name, keys|
       effect_translations[effect_name] = { effect_name => nil }
@@ -288,8 +291,8 @@ task :update_aul2 do
     puts "Building localized .aul2 for #{lang}..."
     editor_file_path = "../translations/#{lang}/editor.yml"
     effect_file_path = "../translations/#{lang}/effects.yml"
-    editor_translations = YAML.load_file(editor_file_path)
-    effect_translations = YAML.load_file(effect_file_path)
+    editor_translations = YAML.load_file(editor_file_path).to_h
+    effect_translations = YAML.load_file(effect_file_path).to_h
 
     sections = {}
     num_translated = 0
