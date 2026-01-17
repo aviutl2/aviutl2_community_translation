@@ -3140,6 +3140,26 @@ Menu:
   'ヒストグラム': |
     ヒストグラム
 
+  # Align
+  '整列': |
+    整列
+
+  # AlignObject
+  'オブジェクト整列': |
+    オブジェクト整列
+
+  # AlignObjectStartPoint
+  'オブジェクトの開始点を揃える': |
+    オブジェクトの開始点を揃える
+
+  # AlignObjectEndPoint
+  'オブジェクトの終了点を揃える': |
+    オブジェクトの終了点を揃える
+
+  # AlignObjectStartEndPoint
+  'オブジェクトの開始終了点を揃える': |
+    オブジェクトの開始終了点を揃える
+
 Message:
   # outputting file
   'ファイル出力中': |
@@ -4144,6 +4164,26 @@ Dialog:
   # AutoScrollSpeedWhenDrag
   'ドラッグ時の自動スクロール速度': |
     ドラッグ時の自動スクロール速度
+
+  # Transparent
+  '透明': |
+    透明
+
+  # OutputResize
+  '出力リサイズ': |
+    出力リサイズ
+
+  # AudioOutput
+  '音声出力': |
+    音声出力
+
+  # Output setting apply when export file
+  '出力設定はファイル出力時に適用されます': |
+    出力設定はファイル出力時に適用されます
+
+  # Stretch object on base frame
+  '基準フレーム上のオブジェクトを伸長する': |
+    基準フレーム上のオブジェクトを伸長する
 
 Name:
   # Min
