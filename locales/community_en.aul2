@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (en)
 ; Generated automatically. Do not edit directly.
-; Translated 945 of 1180 entries (80.08%).
+; Translated 963 of 1180 entries (81.61%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -564,8 +564,8 @@ Z軸回転=Z Rotation
 自動スクロール=Auto Scroll
 ゆらぎ=Fluctuation
 ゆがみ=Distortion
-起点X=BaseX
-起点Y=BaseY
+起点X=Base X
+起点Y=Base Y
 描画=Drawing
 音声=Audio
 ループ画像=LoopImage
@@ -581,10 +581,10 @@ Z軸回転=Z Rotation
 パーティクル=Particle
 出力終了調整=AdjustEnd
 焦点レイヤー=FocusLayer
-深度ぼけ=DepthBlur
-水平回転=RotateHorizontal
-垂直回転=RoteteVertical
-90度回転=Rotate90
+深度ぼけ=Depth Blur
+水平回転=Rotate Horizontal
+垂直回転=Rotate Vertical
+90度回転=Rotate 90 Degrees
 タイル風=Tile
 
 [Menu]
@@ -868,9 +868,9 @@ YUVレンジ=YUV Range
 動画ファイルのドラッグ＆ドロップ時に音声を分離=Extract audio when dragging && dropping video files
 空のシーンへのドラッグ＆ドロップ時にシーン設定を合わせる=Match scene settings when dragging && dropping to an empty scene
 プラグイン=Plugin
-レイヤーのロック=LockLayer
+レイヤーのロック=Layer Lock
 レイヤーを設定=SettingLayer
-レイヤー設定=LayerSetting
+レイヤー設定=Layer Settings
 レイヤー選択時に設定対象レイヤーを変更=ChangeTargetWhenSelectLayer
 小=Small
 中=Medium
@@ -885,13 +885,13 @@ YUVレンジ=YUV Range
 画像ファイルから選択=SelectImageFile
 動画ファイルから選択=SelectVideoFile
 シーン=Scene
-プロジェクトを閉じる=CloseProject
-シーンをファイルから作成=CreateSceneFromFile
+プロジェクトを閉じる=Close Project
+シーンをファイルから作成=Create Scene from File
 シーンをファイルに保存=SaveSceneFile
 インポート=Import
 エクスポート=Export
-プラグイン設定=Plugin
-オブジェクト名を変更=ChangeObjectName
+プラグイン設定=Plugin Settings
+オブジェクト名を変更=Change Object Name
 メディアオブジェクトを追加=AddMediaObject
 フィルタオブジェクトを追加=AddFilterObject
 メディア操作=Media
@@ -920,7 +920,7 @@ YUVレンジ=YUV Range
 参照シーンのフレーム移動に連動=LinkedToReferenceSceneFrameMove
 ヒストグラム=Histogram
 整列=Align
-オブジェクト整列=AlignObject
+オブジェクト整列=Align Object
 オブジェクトの開始点を揃える=AlignObjectStartPoint
 オブジェクトの終了点を揃える=AlignObjectEndPoint
 オブジェクトの開始終了点を揃える=AlignObjectStartEndPoint
@@ -1168,10 +1168,10 @@ Alt+左クリックドラックで右クリックドラック操作=Assign right
 自身以降のフィルタ効果を含める=IncludeFilterAfterSelf
 対象項目=TargetItem
 対象項目から外すとプリセット適用時に元の値が維持されます=When uncheck, original value remains
-背景色=BackgroundColor
-パレット名を変更=RenamePalette
-レイヤー名を変更=ChangeLayerName
-オブジェクト名を変更=ChangeObjectName
+背景色=Background Color
+パレット名を変更=Rename Palette
+レイヤー名を変更=Rename Layer
+オブジェクト名を変更=Rename Object
 メディア移動量(ショートカットキー)=MediaMoveAmount(ShortcutKey)
 メディア拡大量(ショートカットキー)=MediaZoomAmount(ShortcutKey)
 メディア回転量(ショートカットキー)=MediaRotateAmount(ShortcutKey)

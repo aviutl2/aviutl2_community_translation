@@ -1292,6 +1292,12 @@ Effect:
   # fluctuation
   'ゆらぎ': |
     Fluctuation
+  # BaseX
+  '起点X': |
+    Base X
+  # BaseY
+  '起点Y': |
+    Base Y
   # Rendering
   '描画': |
     Drawing
@@ -1310,6 +1316,18 @@ Effect:
   # Particle
   'パーティクル': |
     Particle
+  # DepthBlur
+  '深度ぼけ': |
+    Depth Blur
+  # RotateHorizontal
+  '水平回転': |
+    Rotate Horizontal
+  # RoteteVertical
+  '垂直回転': |
+    Rotate Vertical
+  # Rotate90
+  '90度回転': |
+    Rotate 90 Degrees
 Menu:
   # File
   'ファイル': |
@@ -2139,6 +2157,30 @@ Menu:
   # AdjustSceneWhenDragAndDropToEmptyScene
   '空のシーンへのドラッグ＆ドロップ時にシーン設定を合わせる': |
     Match scene settings when dragging && dropping to an empty scene
+  # Plugin
+  'プラグイン': |
+    Plugin
+  # LockLayer
+  'レイヤーのロック': |
+    Layer Lock
+  # LayerSetting
+  'レイヤー設定': |
+    Layer Settings
+  # CloseProject
+  'プロジェクトを閉じる': |
+    Close Project
+  # CreateSceneFromFile
+  'シーンをファイルから作成': |
+    Create Scene from File
+  # Plugin
+  'プラグイン設定': |
+    Plugin Settings
+  # ChangeObjectName
+  'オブジェクト名を変更': |
+    Change Object Name
+  # AlignObject
+  'オブジェクト整列': |
+    Align Object
 Message:
   # outputting file
   'ファイル出力中': |
@@ -2830,4 +2872,16 @@ Dialog:
   # Do not install
   'インストールしない': |
     Don't Install
+  # BackgroundColor
+  '背景色': |
+    Background Color
+  # RenamePalette
+  'パレット名を変更': |
+    Rename Palette
+  # ChangeLayerName
+  'レイヤー名を変更': |
+    Rename Layer
+  # ChangeObjectName
+  'オブジェクト名を変更': |
+    Rename Object
 
