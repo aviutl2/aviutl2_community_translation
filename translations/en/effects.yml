@@ -17,4 +17,55 @@
   # Loop
   'ループ再生': |
     Loop
+'映像再生':
+  # MovieOutput
+  '映像再生': |
+    Video Mode
+  # (No default text available)
+  'X': |
+    X Position
+  # (No default text available)
+  'Y': |
+    Y Position
+  # (No default text available)
+  'Z': |
+    Z Position
+  # CenterX
+  '中心X': |
+    X Offset
+  # CenterY
+  '中心Y': |
+    Y Offset
+  # CenterZ
+  '中心Z': |
+    Z Offset
+  # Zoom
+  '拡大率': |
+    Size
+  # Aspect
+  '縦横比': |
+    Compression
+'直前オブジェクト':
+  # BeforeObject
+  '直前オブジェクト': |
+    Above Object
+'標準描画':
+  # ImageOutput
+  '標準描画': |
+    Standard Mode
+'座標の回転(個別オブジェクト)':
+  # CenterX
+  '中心X': |
+    X Offset
+'砕け散る':
+  # Shatter
+  '砕け散る': |
+    Shatter
+  # FragmentSize
+  '破片サイズ': |
+    Size of Shards
+'点滅して登場':
+  # FromBlinking
+  '点滅して登場': |
+    Blink In/Out
 

@@ -1292,6 +1292,9 @@ Effect:
   # fluctuation
   'ゆらぎ': |
     Fluctuation
+  # Distortion
+  'ゆがみ': |
+    Distortion
   # BaseX
   '起点X': |
     Base X
@@ -2049,6 +2052,9 @@ Menu:
   # HideObjectNameWhenDisplayAudioWaveform
   '音声波形表示時はオブジェクト名を非表示': |
     Hide Object Names When Displaying Audio Waveform複製=Duplicate
+  # Duplicate
+  '複製': |
+    Duplicate
   # CutAndRemoveGap
   '切り取りして詰める': |
     Cut and Shift
@@ -2109,6 +2115,9 @@ Menu:
   # Auto
   '自動': |
     Auto
+  # DisplayPlaybackPositionByFrameNumber
+  '再生位置をフレーム番号で表示': |
+    Display video/audio position in frames
   # ShowGrid(XY)
   'グリッド(XY軸)の表示': |
     Show Grid (X/Y Axis)
@@ -2162,22 +2171,115 @@ Menu:
     Plugin
   # LockLayer
   'レイヤーのロック': |
-    Layer Lock
+    Lock Layer
+  # SettingLayer
+  'レイヤーを設定': |
+    Layer Settings
   # LayerSetting
   'レイヤー設定': |
     Layer Settings
+  # Small
+  '小': |
+    Small
+  # Medium
+  '中': |
+    Medium
+  # Large
+  '大': |
+    Large
+  # ObjectPresetFolder
+  'オブジェクトプリセットフォルダ': |
+    Object Preset Folder
+  # RenamePalette
+  'パレット名を変更': |
+    Rename Palette
+  # DisplaySubGroupLabel
+  'サブグループ項目を表示': |
+    Group object settings
+  # SelectImageFile
+  '画像ファイルから選択': |
+    Select from image
+  # SelectVideoFile
+  '動画ファイルから選択': |
+    Select from video
+  # Scene
+  'シーン': |
+    Scene
   # CloseProject
   'プロジェクトを閉じる': |
     Close Project
   # CreateSceneFromFile
   'シーンをファイルから作成': |
     Create Scene from File
+  # SaveSceneFile
+  'シーンをファイルに保存': |
+    Save to file
+  # Import
+  'インポート': |
+    Import
+  # Export
+  'エクスポート': |
+    Export
   # Plugin
   'プラグイン設定': |
     Plugin Settings
   # ChangeObjectName
   'オブジェクト名を変更': |
     Change Object Name
+  # AddMediaObject
+  'メディアオブジェクトを追加': |
+    Add Media Object
+  # AddFilterObject
+  'フィルタオブジェクトを追加': |
+    Add Filter Object
+  # Media
+  'メディア操作': |
+    Adjust Item
+  # MoveMediaUp
+  'メディアを上に移動': |
+    Move item up
+  # MoveMediaDown
+  'メディアを下に移動': |
+    Move item down
+  # MoveMediaLeft
+  'メディアを左に移動': |
+    Move item left
+  # MoveMediaRight
+  'メディアを右に移動': |
+    Move item right
+  # ZoomInMedia
+  'メディアを拡大': |
+    Enlarge item
+  # ZoomOutMedia
+  'メディアを縮小': |
+    Shrink item
+  # RotateMediaLeft
+  'メディアを左回転': |
+    Rotate item counter-clockwise
+  # RotateMediaRight
+  'メディアを右回転': |
+    Rotate item clockwise
+  # EditText
+  'テキストを編集': |
+    Edit Text
+  # ScenePlayback
+  'シーン再生': |
+    Scene Player
+  # ShowVolumeLevelMeter(Preview)
+  '音量レベルメーターの表示(プレビュー)': |
+    Display volume level (in main player)
+  # ShowVolumeLevelMeter(ScenePlayback)
+  '音量レベルメーターの表示(シーン再生)': |
+    Display volume level (in scene player)
+  # PlayScene/Stop
+  'シーン再生・停止': |
+    Play/Stop Scene
+  # PlayScene/Pause
+  'シーン再生・一時停止': |
+    Play/Pause Scene
+  # PlaySceneWhenBufferFull
+  '再生バッファの最大まで取得してシーン再生': |
+    Fill playback buffer then play
   # AlignObject
   'オブジェクト整列': |
     Align Object
