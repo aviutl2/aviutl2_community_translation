@@ -13,3 +13,4 @@ backend = 'github:WhatTheBlock/innounp[platforms={ windows-x86_64 = { asset_patt
 [[tools.ruby]]
 version = "4.0.0"
 backend = "core:ruby"
+"platforms.windows-x64" = { checksum = "blake3:d8072fde5af4c613c90636950dee4aa9fc69d6dfd286a4220160ab4b2f81d868"}
