@@ -1307,6 +1307,9 @@ Effect:
   # Audio
   '音声': |
     Audio
+  # LoopImage
+  'ループ画像': |
+    Loop Image
   # OverwriteColor
   '色情報を上書き': |
     Override Color
@@ -1316,6 +1319,9 @@ Effect:
   # MultiplyLuminanceAsAlpha
   '輝度をアルファ値として乗算': |
     Multiply Luminance with Alpha
+  # Image
+  '画像': |
+    Image
   # Particle
   'パーティクル': |
     Particle
@@ -1331,6 +1337,9 @@ Effect:
   # Rotate90
   '90度回転': |
     Rotate 90 Degrees
+  # Tile
+  'タイル風': |
+    Tile
 Menu:
   # File
   'ファイル': |
@@ -2280,6 +2289,9 @@ Menu:
   # PlaySceneWhenBufferFull
   '再生バッファの最大まで取得してシーン再生': |
     Fill playback buffer then play
+  # Histogram
+  'ヒストグラム': |
+    Histogram
   # AlignObject
   'オブジェクト整列': |
     Align Object
@@ -2986,4 +2998,7 @@ Dialog:
   # ChangeObjectName
   'オブジェクト名を変更': |
     Rename Object
+  # AudioOutput
+  '音声出力': |
+    Audio Output
 

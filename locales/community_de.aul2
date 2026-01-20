@@ -6,7 +6,7 @@
 
 [Effect]
 動画ファイル=Video File
-画像ファイル=ImageFile
+画像ファイル=Image File
 音声ファイル=AudioFile
 テキスト=Text
 図形=Figure
@@ -568,7 +568,7 @@ Z軸回転=Z Rotation
 起点Y=Base Y
 描画=Drawing
 音声=Audio
-ループ画像=LoopImage
+ループ画像=Loop Image
 前方から合成=CompositeFromFront
 後方から合成=CompositeFromBack
 色情報を上書き=Override Color
@@ -1178,7 +1178,7 @@ Alt+左クリックドラックで右クリックドラック操作=Assign right
 ドラッグ時の自動スクロール速度=AutoScrollSpeedWhenDrag
 透明=Transparent
 出力リサイズ=OutputResize
-音声出力=AudioOutput
+音声出力=Audio Output
 出力設定はファイル出力時に適用されます=Output setting apply when export file
 基準フレーム上のオブジェクトを伸長する=Stretch object on base frame
 

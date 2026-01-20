@@ -191,6 +191,9 @@
   # ReelRotation(SceneChange)
   'リール回転(シーンチェンジ)': |
     Reel Rotation (Transition)
+  # Blur
+  'ブラー': |
+    Blur
 '図形ワイプ(シーンチェンジ)':
   # Wipe(SceneChange)
   '図形ワイプ(シーンチェンジ)': |
@@ -198,4 +201,97 @@
   # Size
   'サイズ': |
     Size
+'色調補正':
+  # Contrast
+  'コントラスト': |
+    Contrast
+  # Hue
+  '色相': |
+    Hue
+'画像ファイル':
+  # ImageFile
+  '画像ファイル': |
+    Image File
+  # File
+  'ファイル': |
+    File
+'マスク':
+  # Mask
+  'マスク': |
+    Mask
+  # Rotate
+  '回転': |
+    Rotation
+  # Size
+  'サイズ': |
+    Size
+  # Blur
+  'ぼかし': |
+    Blur
+  # MaskType
+  'マスクの種類': |
+    Mask Type
+'ぼかし':
+  # Blur
+  'ぼかし': |
+    Blur
+  # Range
+  '範囲': |
+    Range
+'音声ファイル':
+  # File
+  'ファイル': |
+    File
+  # Track
+  'トラック': |
+    Track
+'音声再生':
+  # Volume
+  '音量': |
+    Volume
+'リサイズ':
+  # Resize
+  'リサイズ': |
+    Resize
+'テキスト':
+  # Font
+  'フォント': |
+    Font
+  # TextColor
+  '文字色': |
+    Text Color
+  # AutoScroll
+  '自動スクロール': |
+    Auto Scroll
+'ノイズ':
+  # Noise
+  'ノイズ': |
+    Noise
+'フェード':
+  # Fade
+  'フェード': |
+    Fade
+  # In
+  'イン': |
+    In
+  # Out
+  'アウト': |
+    Out
+'ワイプ':
+  # Wipe
+  'ワイプ': |
+    Wipe
+  # In
+  'イン': |
+    In
+  # Out
+  'アウト': |
+    Out
+  # Blur
+  'ぼかし': |
+    Blur
+'ローテーション':
+  # Rotate90
+  '90度回転': |
+    Rotate 90°
 
