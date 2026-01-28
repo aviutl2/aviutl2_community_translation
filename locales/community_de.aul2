@@ -101,8 +101,8 @@
 何処からともなく登場=FromNowhere
 反復移動=RepeatMove
 座標の回転(個別オブジェクト)=RotateCoordinate(Individual)
-立方体(カメラ制御)=Cube(Camera)
-球体(カメラ制御)=Sphere(Camera)
+立方体(カメラ制御)=Cube (camera controlled)
+球体(カメラ制御)=Sphere (camera controlled)
 砕け散る=Shatter
 点滅=Blink
 点滅して登場=Blink In/Out

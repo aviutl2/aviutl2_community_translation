@@ -120,6 +120,9 @@
   '合成モード': |
     Blend Mode
 '座標の回転(個別オブジェクト)':
+  # Angle
+  '角度': |
+    Angle
   # CenterX
   '中心X': |
     X Offset
@@ -127,6 +130,16 @@
   '中心Y': |
     Y Offset
 '立方体(カメラ制御)':
+  # Cube(Camera)
+  '立方体(カメラ制御)': |
+    Cube (camera controlled)
+  # Size
+  'サイズ': |
+    Size
+'球体(カメラ制御)':
+  # Sphere(Camera)
+  '球体(カメラ制御)': |
+    Sphere (camera controlled)
   # Size
   'サイズ': |
     Size
@@ -158,6 +171,18 @@
   # Gravity
   '重力': |
     Gravity
+  # TimeLag
+  '時間差': |
+    Time difference
+  # DistanceEffect
+  '距離影響': |
+    Effects of distance
+  # RandomRotate
+  'ランダム回転': |
+    Random rotation
+  # RandomDirection
+  'ランダム方向': |
+    Random direction
 '点滅':
   # Blink
   '点滅': |
@@ -175,6 +200,41 @@
   # Time
   '時間': |
     Duration
+'簡易変形':
+  # Position
+  '座標': |
+    Coordinates
+'簡易変形(カメラ制御)':
+  # Position
+  '座標': |
+    Coordinates
+'リール回転':
+  # Blur
+  'ブラー': |
+    Blur
+'万華鏡':
+  # Length
+  '長さ': |
+    Length
+  # Rotate
+  '回転': |
+    Rotation
+  # CornerNum(Even)
+  '角数(偶数)': |
+    The number of corners (even numbers)
+  # RepeatNum
+  '繰り返し回数': |
+    Repetition steps
+'音声波形表示':
+  # Height
+  '高さ': |
+    Height
+  # Volume
+  '音量': |
+    Volume
+  # File
+  'ファイル': |
+    File
 'レンズブラー(シーンチェンジ)':
   # LensBlur(SceneChange)
   'レンズブラー(シーンチェンジ)': |

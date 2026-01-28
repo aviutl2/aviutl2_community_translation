@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1104 of 1269 entries (87.0%).
+; Translated 1124 of 1287 entries (87.33%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -101,8 +101,8 @@
 何処からともなく登場=FromNowhere
 反復移動=RepeatMove
 座標の回転(個別オブジェクト)=RotateCoordinate(Individual)
-立方体(カメラ制御)=Cube(Camera)
-球体(カメラ制御)=Sphere(Camera)
+立方体(カメラ制御)=Cube (camera controlled)
+球体(カメラ制御)=Sphere (camera controlled)
 砕け散る=Shatter
 点滅=Blink
 点滅して登場=Blink In/Out
@@ -1241,10 +1241,16 @@ Z軸回転=Z Rotation
 合成モード=Blend Mode
 
 [座標の回転(個別オブジェクト)]
+角度=Angle
 中心X=X Offset
 中心Y=Y Offset
 
 [立方体(カメラ制御)]
+立方体(カメラ制御)=Cube (camera controlled)
+サイズ=Size
+
+[球体(カメラ制御)]
+球体(カメラ制御)=Sphere (camera controlled)
 サイズ=Size
 
 [砕け散る]
@@ -1257,6 +1263,10 @@ Z軸回転=Z Rotation
 破片サイズ=Size of Shards
 速度=Speed
 重力=Gravity
+時間差=Time difference
+距離影響=Effects of distance
+ランダム回転=Random rotation
+ランダム方向=Random direction
 
 [点滅]
 点滅=Blink
@@ -1266,6 +1276,26 @@ Z軸回転=Z Rotation
 [点滅して登場]
 点滅して登場=Blink In/Out
 時間=Duration
+
+[簡易変形]
+座標=Coordinates
+
+[簡易変形(カメラ制御)]
+座標=Coordinates
+
+[リール回転]
+ブラー=Blur
+
+[万華鏡]
+長さ=Length
+回転=Rotation
+角数(偶数)=The number of corners (even numbers)
+繰り返し回数=Repetition steps
+
+[音声波形表示]
+高さ=Height
+音量=Volume
+ファイル=File
 
 [レンズブラー(シーンチェンジ)]
 レンズブラー(シーンチェンジ)=Lens Blur (Transition)
