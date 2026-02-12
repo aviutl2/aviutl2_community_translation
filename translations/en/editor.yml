@@ -2315,7 +2315,7 @@ Menu:
     Snap Cursor Movement (Layers)
   # ScenePlayback
   'シーン再生': |
-    Scene Player
+
   # ShowVolumeLevelMeter(Preview)
   '音量レベルメーターの表示(プレビュー)': |
     Display volume level (in main player)
@@ -2379,6 +2379,12 @@ Menu:
   # SpaceEvenlyObject
   'オブジェクトを均等配置': |
     Space objects evenly
+  # SystemInfo
+  'システム情報': |
+    System Information
+  # PackageInfo
+  'パッケージ情報': |
+    Package Information
 Message:
   # outputting file
   'ファイル出力中': |
@@ -2656,7 +2662,7 @@ Message:
   # edit data is updated
   # save project file?
   '現在の編集データは更新されています\nプロジェクトを保存しますか？': |
-    The current editing data has been updated.\nDo you want to save the project?
+    The current project has unsaved changes.\nDo you want to save the project?
   # failed load scene
   'シーンの読み込みに失敗しました': |
     Failed to load scene
@@ -3165,6 +3171,9 @@ Dialog:
   # Stretch object on base frame
   '基準フレーム上のオブジェクトを伸長する': |
     Stretch objects on base frame
+  # PackageInfo
+  'パッケージ情報': |
+    Package Information
 Name:
   # Min
   '最小': |
