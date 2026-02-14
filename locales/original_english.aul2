@@ -944,6 +944,7 @@ YUVレンジ=YUVColorRange
 システム情報=SystemInfo
 パッケージ情報=PackageInfo
 アンインストール=Uninstall
+スライダーのつまみを表示=ShowSliderThumb
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ
@@ -1038,6 +1039,7 @@ YUVの設定=setting YUV
 シーンを選択=select scene
 グループ制御の対象=enable group control
 上位のグループ制御の対象=enable upper group control
+プラグインはこの本体バージョンをサポートしていません=Plugin not support current app version.
 
 [Dialog]
 ; ダイアログ内の名称
@@ -1214,6 +1216,8 @@ Alt+左クリックドラックで右クリックドラック操作=Alt+LeftClic
 ※アンインストール後にアプリケーションを再起動します=*Restart application after uninstall
 このプラグイン・スクリプトをアンインストールする=Uninstall plugin/script
 アンインストールしない=Do not uninstall
+増減ボタンの移動単位=SliderButtonMoveStep
+ホイール操作の移動単位=MouseWheelMoveStep
 ;OK=OK
 ;Cancel=Cancel
 

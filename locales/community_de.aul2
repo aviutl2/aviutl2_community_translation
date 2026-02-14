@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (de)
 ; Generated automatically. Do not edit directly.
-; Translated 84 of 1191 entries (7.05%).
+; Translated 84 of 1195 entries (7.03%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -930,6 +930,7 @@ YUVレンジ=YUV Range
 システム情報=System Information
 パッケージ情報=Package Information
 アンインストール=Uninstall
+スライダーのつまみを表示=ShowSliderThumb
 
 [Message]
 ファイル出力中=Exporting File
@@ -1023,6 +1024,7 @@ YUVの設定=YUV Settings
 シーンを選択=Select Scene
 グループ制御の対象=Enable Group Control
 上位のグループ制御の対象=Enable Upper Group Control
+プラグインはこの本体バージョンをサポートしていません=Plugin not support current app version.
 
 [Dialog]
 シーンを作成=Create Scene
@@ -1198,6 +1200,8 @@ Alt+左クリックドラックで右クリックドラック操作=Assign right
 ※アンインストール後にアプリケーションを再起動します=*Restart application after uninstall
 このプラグイン・スクリプトをアンインストールする=Uninstall this Plugin/Script
 アンインストールしない=Don't Uninstall
+増減ボタンの移動単位=SliderButtonMoveStep
+ホイール操作の移動単位=MouseWheelMoveStep
 
 [Name]
 最小=Minimum

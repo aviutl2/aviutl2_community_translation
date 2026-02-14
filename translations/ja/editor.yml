@@ -3184,6 +3184,10 @@ Menu:
   'アンインストール': |
     アンインストール
 
+  # ShowSliderThumb
+  'スライダーのつまみを表示': |
+    スライダーのつまみを表示
+
 Message:
   # outputting file
   'ファイル出力中': |
@@ -3559,6 +3563,10 @@ Message:
   # enable upper group control
   '上位のグループ制御の対象': |
     上位のグループ制御の対象
+
+  # Plugin not support current app version.
+  'プラグインはこの本体バージョンをサポートしていません': |
+    プラグインはこの本体バージョンをサポートしていません
 
 Dialog:
   # NewScene
@@ -4252,6 +4260,14 @@ Dialog:
   # Do not uninstall
   'アンインストールしない': |
     アンインストールしない
+
+  # SliderButtonMoveStep
+  '増減ボタンの移動単位': |
+    増減ボタンの移動単位
+
+  # MouseWheelMoveStep
+  'ホイール操作の移動単位': |
+    ホイール操作の移動単位
 
 Name:
   # Min
