@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1226 of 1330 entries (92.18%).
+; Translated 1226 of 1342 entries (91.36%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -931,6 +931,17 @@ YUVレンジ=YUV Range
 パッケージ情報=Package Information
 アンインストール=Uninstall
 スライダーのつまみを表示=Show knob of sliders
+レイヤー操作=Layer
+現在のレイヤーをロック=LockCursorLayer
+現在のレイヤーを表示/非表示=VisibleCursorLayer
+現在のレイヤー名を変更=DeleteCursorLayer
+現在のレイヤーの上に挿入=InsertAboveCursorLayer
+現在のレイヤーを削除=DeleteCursorLayer
+シーン操作=Scene
+現在のシーンを複製=DuplicateCurrentScene
+現在のシーンを削除=DeleteCurrentScene
+現在のシーン名を変更=ChangeCurrentSceneName
+現在のシーンを設定=SettingCurrentScene
 
 [Message]
 ファイル出力中=Exporting File
@@ -1202,6 +1213,7 @@ Alt+左クリックドラックで右クリックドラック操作=Assign right
 アンインストールしない=Don't Uninstall
 増減ボタンの移動単位=SliderButtonMoveStep
 ホイール操作の移動単位=MouseWheelMoveStep
+パッケージの競合=PackageConflict
 
 [Name]
 最小=Minimum
@@ -1316,13 +1328,6 @@ Z軸回転=Z Rotation
 角数(偶数)=The number of corners (even numbers)
 繰り返し回数=Repetition steps
 
-[音声波形表示]
-高さ=Height
-再生位置=Playback Position
-再生速度=Playback Speed
-音量=Volume
-ファイル=File
-
 [ミラー]
 境目調整=Boundary Adjustment
 ミラーの方向=Mirror Direction
@@ -1345,22 +1350,29 @@ Z軸回転=Z Rotation
 リール回転(シーンチェンジ)=Reel Rotation (Transition)
 ブラー=Blur
 
+[音声波形表示]
+高さ=Height
+再生位置=Playback Position
+再生速度=Playback Speed
+音量=Volume
+ファイル=File
+
 [図形ワイプ(シーンチェンジ)]
 図形ワイプ(シーンチェンジ)=Wipe (Transition)
 サイズ=Size
 回転速度=Rotation Speed
 ディレイ時間=Delay Time
 
-[色調補正]
-色調補正=Color Correction
-コントラスト=Contrast
-色相=Hue
-
 [図形で隠す(シーンチェンジ)]
 回転速度=Rotation Speed
 エッジ角度=Edge Angle
 エッジ幅=Edge Width
 エッジ高さ=Edge Height
+
+[色調補正]
+色調補正=Color Correction
+コントラスト=Contrast
+色相=Hue
 
 [画像ファイル]
 画像ファイル=Image File

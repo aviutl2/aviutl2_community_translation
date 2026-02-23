@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (de)
 ; Generated automatically. Do not edit directly.
-; Translated 84 of 1195 entries (7.03%).
+; Translated 84 of 1207 entries (6.96%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -931,6 +931,17 @@ YUVレンジ=YUV Range
 パッケージ情報=Package Information
 アンインストール=Uninstall
 スライダーのつまみを表示=Show knob of sliders
+レイヤー操作=Layer
+現在のレイヤーをロック=LockCursorLayer
+現在のレイヤーを表示/非表示=VisibleCursorLayer
+現在のレイヤー名を変更=DeleteCursorLayer
+現在のレイヤーの上に挿入=InsertAboveCursorLayer
+現在のレイヤーを削除=DeleteCursorLayer
+シーン操作=Scene
+現在のシーンを複製=DuplicateCurrentScene
+現在のシーンを削除=DeleteCurrentScene
+現在のシーン名を変更=ChangeCurrentSceneName
+現在のシーンを設定=SettingCurrentScene
 
 [Message]
 ファイル出力中=Exporting File
@@ -1202,6 +1213,7 @@ Alt+左クリックドラックで右クリックドラック操作=Assign right
 アンインストールしない=Don't Uninstall
 増減ボタンの移動単位=SliderButtonMoveStep
 ホイール操作の移動単位=MouseWheelMoveStep
+パッケージの競合=PackageConflict
 
 [Name]
 最小=Minimum

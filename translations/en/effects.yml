@@ -249,22 +249,6 @@
   # RepeatNum
   '繰り返し回数': |
     Repetition steps
-'音声波形表示':
-  # Height
-  '高さ': |
-    Height
-  # PlaybackPosition
-  '再生位置': |
-    Playback Position
-  # PlaybackSpeed
-  '再生速度': |
-    Playback Speed
-  # Volume
-  '音量': |
-    Volume
-  # File
-  'ファイル': |
-    File
 'ミラー':
   # BoarderAdjust
   '境目調整': |
@@ -301,6 +285,22 @@
   # Blur
   'ブラー': |
     Blur
+'音声波形表示':
+  # Height
+  '高さ': |
+    Height
+  # PlaybackPosition
+  '再生位置': |
+    Playback Position
+  # PlaybackSpeed
+  '再生速度': |
+    Playback Speed
+  # Volume
+  '音量': |
+    Volume
+  # File
+  'ファイル': |
+    File
 '図形ワイプ(シーンチェンジ)':
   # Wipe(SceneChange)
   '図形ワイプ(シーンチェンジ)': |
@@ -314,16 +314,6 @@
   # DelayTime
   'ディレイ時間': |
     Delay Time
-'色調補正':
-  # ColorCorrect
-  '色調補正': |
-    Color Correction
-  # Contrast
-  'コントラスト': |
-    Contrast
-  # Hue
-  '色相': |
-    Hue
 '図形で隠す(シーンチェンジ)':
   # RotateSpeed
   '回転速度': |
@@ -337,6 +327,16 @@
   # EdgeHeight
   'エッジ高さ': |
     Edge Height
+'色調補正':
+  # ColorCorrect
+  '色調補正': |
+    Color Correction
+  # Contrast
+  'コントラスト': |
+    Contrast
+  # Hue
+  '色相': |
+    Hue
 '画像ファイル':
   # ImageFile
   '画像ファイル': |
