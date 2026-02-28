@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1226 of 1342 entries (91.36%).
+; Translated 1235 of 1356 entries (91.08%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -87,6 +87,9 @@
 画像合成=ImageComposite
 モーションブラー=MotionBlur
 ローテーション=Rotate
+画像合成(オブジェクト)=ImageComposite(Object)
+仮想バッファ=TempBuffer
+仮想バッファ出力=TempBufferOutput
 震える=Tremble
 振り子=Pendulum
 弾む=Bound
@@ -932,16 +935,23 @@ YUVレンジ=YUV Range
 アンインストール=Uninstall
 スライダーのつまみを表示=Show knob of sliders
 レイヤー操作=Layer
-現在のレイヤーをロック=LockCursorLayer
-現在のレイヤーを表示/非表示=VisibleCursorLayer
-現在のレイヤー名を変更=DeleteCursorLayer
-現在のレイヤーの上に挿入=InsertAboveCursorLayer
-現在のレイヤーを削除=DeleteCursorLayer
+現在のレイヤーをロック=Lock Current Layer
+現在のレイヤーを表示/非表示=Show/Hide Current Layer
+現在のレイヤー名を変更=Change Current Layer's Name
+現在のレイヤーの上に挿入=Insert New Layer Here
+現在のレイヤーを削除=Delete Current Layer
 シーン操作=Scene
-現在のシーンを複製=DuplicateCurrentScene
-現在のシーンを削除=DeleteCurrentScene
-現在のシーン名を変更=ChangeCurrentSceneName
+現在のシーンを複製=Duplicate Current Scene
+現在のシーンを削除=Delete Current Scene
+現在のシーン名を変更=Change Current Scene's Name
 現在のシーンを設定=SettingCurrentScene
+現在のフレーム上にあるオブジェクトを選択=SelectObjectAboveCursorFrame
+仮想バッファ=TempBuffer
+選択オブジェクトのアンカーを優先=PrioritizeFocusObjectAnchor
+オブジェクトのアンカー操作をロック=LockObjectAnchor
+オブジェクトが参照しているシーンに移動=MoveToSceneReferencedByObject
+次のシーンに進む(表示履歴)=MoveToNextScene(DisplayHistory)
+前のシーンに戻る(表示履歴)=MoveToPreviousScene(DisplayHistory)
 
 [Message]
 ファイル出力中=Exporting File
@@ -1036,6 +1046,7 @@ YUVの設定=YUV Settings
 グループ制御の対象=Enable Group Control
 上位のグループ制御の対象=Enable Upper Group Control
 プラグインはこの本体バージョンをサポートしていません=The plugin does not support this AviUtl2 version.
+スクリプトはこの本体バージョンをサポートしていません=Script not support current app version.
 
 [Dialog]
 シーンを作成=Create Scene
@@ -1213,7 +1224,10 @@ Alt+左クリックドラックで右クリックドラック操作=Assign right
 アンインストールしない=Don't Uninstall
 増減ボタンの移動単位=SliderButtonMoveStep
 ホイール操作の移動単位=MouseWheelMoveStep
-パッケージの競合=PackageConflict
+パッケージの競合=Package Conflict
+検索=Search
+重複=Duplicate
+キーの設定時にマウスの右クリックで設定を解除出来ます=While setting key, right click to clear setting.
 
 [Name]
 最小=Minimum

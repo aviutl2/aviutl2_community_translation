@@ -35,6 +35,14 @@ Effect:
   '時間制御(オブジェクト)': |
     時間制御(オブジェクト)
 
+  # TempBuffer
+  '仮想バッファ': |
+    仮想バッファ
+
+  # TempBufferOutput
+  '仮想バッファ出力': |
+    仮想バッファ出力
+
   # CameraShake
   '手ぶれ': |
     手ぶれ
@@ -3232,6 +3240,34 @@ Menu:
   '現在のシーンを設定': |
     現在のシーンを設定
 
+  # SelectObjectAboveCursorFrame
+  '現在のフレーム上にあるオブジェクトを選択': |
+    現在のフレーム上にあるオブジェクトを選択
+
+  # TempBuffer
+  '仮想バッファ': |
+    仮想バッファ
+
+  # PrioritizeFocusObjectAnchor
+  '選択オブジェクトのアンカーを優先': |
+    選択オブジェクトのアンカーを優先
+
+  # LockObjectAnchor
+  'オブジェクトのアンカー操作をロック': |
+    オブジェクトのアンカー操作をロック
+
+  # MoveToSceneReferencedByObject
+  'オブジェクトが参照しているシーンに移動': |
+    オブジェクトが参照しているシーンに移動
+
+  # MoveToNextScene(DisplayHistory)
+  '次のシーンに進む(表示履歴)': |
+    次のシーンに進む(表示履歴)
+
+  # MoveToPreviousScene(DisplayHistory)
+  '前のシーンに戻る(表示履歴)': |
+    前のシーンに戻る(表示履歴)
+
 Message:
   # outputting file
   'ファイル出力中': |
@@ -3611,6 +3647,10 @@ Message:
   # Plugin not support current app version.
   'プラグインはこの本体バージョンをサポートしていません': |
     プラグインはこの本体バージョンをサポートしていません
+
+  # Script not support current app version.
+  'スクリプトはこの本体バージョンをサポートしていません': |
+    スクリプトはこの本体バージョンをサポートしていません
 
 Dialog:
   # NewScene
@@ -4316,6 +4356,18 @@ Dialog:
   # PackageConflict
   'パッケージの競合': |
     パッケージの競合
+
+  # Search
+  '検索': |
+    検索
+
+  # Duplicate
+  '重複': |
+    重複
+
+  # While setting key, right click to clear setting.
+  'キーの設定時にマウスの右クリックで設定を解除出来ます': |
+    キーの設定時にマウスの右クリックで設定を解除出来ます
 
 Name:
   # Min

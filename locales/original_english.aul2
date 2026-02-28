@@ -92,6 +92,9 @@
 画像合成=ImageComposite
 モーションブラー=MotionBlur
 ローテーション=Rotate
+画像合成(オブジェクト)=ImageComposite(Object)
+仮想バッファ=TempBuffer
+仮想バッファ出力=TempBufferOutput
 
 ; スクリプトの名称
 震える=Tremble
@@ -956,6 +959,13 @@ YUVレンジ=YUVColorRange
 現在のシーンを削除=DeleteCurrentScene
 現在のシーン名を変更=ChangeCurrentSceneName
 現在のシーンを設定=SettingCurrentScene
+現在のフレーム上にあるオブジェクトを選択=SelectObjectAboveCursorFrame
+仮想バッファ=TempBuffer
+選択オブジェクトのアンカーを優先=PrioritizeFocusObjectAnchor
+オブジェクトのアンカー操作をロック=LockObjectAnchor
+オブジェクトが参照しているシーンに移動=MoveToSceneReferencedByObject
+次のシーンに進む(表示履歴)=MoveToNextScene(DisplayHistory)
+前のシーンに戻る(表示履歴)=MoveToPreviousScene(DisplayHistory)
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ
@@ -1051,6 +1061,7 @@ YUVの設定=setting YUV
 グループ制御の対象=enable group control
 上位のグループ制御の対象=enable upper group control
 プラグインはこの本体バージョンをサポートしていません=Plugin not support current app version.
+スクリプトはこの本体バージョンをサポートしていません=Script not support current app version.
 
 [Dialog]
 ; ダイアログ内の名称
@@ -1230,6 +1241,10 @@ Alt+左クリックドラックで右クリックドラック操作=Alt+LeftClic
 増減ボタンの移動単位=SliderButtonMoveStep
 ホイール操作の移動単位=MouseWheelMoveStep
 パッケージの競合=PackageConflict
+検索=Search
+重複=Duplicate
+キーの設定時にマウスの右クリックで設定を解除出来ます=While setting key, right click to clear setting.
+
 ;OK=OK
 ;Cancel=Cancel
 
