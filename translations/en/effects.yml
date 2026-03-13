@@ -374,6 +374,9 @@
   'カメラの方向を向く': |
     Face Camera Direction
 'ミラー':
+  # Transparent
+  '透明度': |
+    Transparency
   # BoarderAdjust
   '境目調整': |
     Boundary Adjustment

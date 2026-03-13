@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1282 of 1401 entries (91.51%).
+; Translated 1283 of 1402 entries (91.51%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -1396,6 +1396,7 @@ Z軸回転=Z Rotation
 カメラの方向を向く=Face Camera Direction
 
 [ミラー]
+透明度=Transparency
 境目調整=Boundary Adjustment
 ミラーの方向=Mirror Direction
 
