@@ -3284,6 +3284,14 @@ Menu:
   '前のシーンに戻る(表示履歴)': |
     前のシーンに戻る(表示履歴)
 
+  # FitMediaToScreen
+  'メディアを画面にフィット': |
+    メディアを画面にフィット
+
+  # FixStartPositionWhenCorrectTheMediaObjectLength
+  'メディアオブジェクトの長さ補正時に開始位置を固定する': |
+    メディアオブジェクトの長さ補正時に開始位置を固定する
+
 Message:
   # outputting file
   'ファイル出力中': |

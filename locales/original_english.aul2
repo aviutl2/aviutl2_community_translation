@@ -971,6 +971,8 @@ YUVレンジ=YUVColorRange
 オブジェクトが参照しているシーンに移動=MoveToSceneReferencedByObject
 次のシーンに進む(表示履歴)=MoveToNextScene(DisplayHistory)
 前のシーンに戻る(表示履歴)=MoveToPreviousScene(DisplayHistory)
+メディアを画面にフィット=FitMediaToScreen
+メディアオブジェクトの長さ補正時に開始位置を固定する=FixStartPositionWhenCorrectTheMediaObjectLength
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ

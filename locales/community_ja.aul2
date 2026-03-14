@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (ja)
 ; Generated automatically. Do not edit directly.
-; Translated 2018 of 2018 entries (100.0%).
+; Translated 2020 of 2020 entries (100.0%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -957,6 +957,8 @@ YUVレンジ=YUVレンジ
 オブジェクトが参照しているシーンに移動=オブジェクトが参照しているシーンに移動
 次のシーンに進む(表示履歴)=次のシーンに進む(表示履歴)
 前のシーンに戻る(表示履歴)=前のシーンに戻る(表示履歴)
+メディアを画面にフィット=メディアを画面にフィット
+メディアオブジェクトの長さ補正時に開始位置を固定する=メディアオブジェクトの長さ補正時に開始位置を固定する
 
 [Message]
 ファイル出力中=ファイル出力中

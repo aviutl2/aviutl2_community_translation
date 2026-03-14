@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1283 of 1402 entries (91.51%).
+; Translated 1283 of 1404 entries (91.38%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -957,6 +957,8 @@ YUVレンジ=YUV Range
 オブジェクトが参照しているシーンに移動=MoveToSceneReferencedByObject
 次のシーンに進む(表示履歴)=MoveToNextScene(DisplayHistory)
 前のシーンに戻る(表示履歴)=MoveToPreviousScene(DisplayHistory)
+メディアを画面にフィット=FitMediaToScreen
+メディアオブジェクトの長さ補正時に開始位置を固定する=FixStartPositionWhenCorrectTheMediaObjectLength
 
 [Message]
 ファイル出力中=Exporting File
