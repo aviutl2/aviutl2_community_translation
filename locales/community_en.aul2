@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1283 of 1404 entries (91.38%).
+; Translated 1283 of 1407 entries (91.19%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -1054,6 +1054,9 @@ YUVの設定=YUV Settings
 上位のグループ制御の対象=Enable Upper Group Control
 プラグインはこの本体バージョンをサポートしていません=The plugin does not support this AviUtl2 version.
 スクリプトはこの本体バージョンをサポートしていません=Script not support current app version.
+テキストオブジェクト=text object
+図形オブジェクト=figure object
+モデルオブジェクト=model object
 
 [Dialog]
 シーンを作成=Create Scene

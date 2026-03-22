@@ -1069,6 +1069,9 @@ YUVの設定=setting YUV
 上位のグループ制御の対象=enable upper group control
 プラグインはこの本体バージョンをサポートしていません=Plugin not support current app version.
 スクリプトはこの本体バージョンをサポートしていません=Script not support current app version.
+テキストオブジェクト=text object
+図形オブジェクト=figure object
+モデルオブジェクト=model object
 
 [Dialog]
 ; ダイアログ内の名称

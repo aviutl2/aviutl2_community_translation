@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (ja)
 ; Generated automatically. Do not edit directly.
-; Translated 2020 of 2020 entries (100.0%).
+; Translated 2023 of 2023 entries (100.0%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -1054,6 +1054,9 @@ YUVの設定=YUVの設定
 上位のグループ制御の対象=上位のグループ制御の対象
 プラグインはこの本体バージョンをサポートしていません=プラグインはこの本体バージョンをサポートしていません
 スクリプトはこの本体バージョンをサポートしていません=スクリプトはこの本体バージョンをサポートしていません
+テキストオブジェクト=テキストオブジェクト
+図形オブジェクト=図形オブジェクト
+モデルオブジェクト=モデルオブジェクト
 
 [Dialog]
 シーンを作成=シーンを作成
