@@ -72,6 +72,10 @@
   'Z軸回転': |
     Z軸回転
 
+  # (No default text available)
+  'Group2': |
+    Group2
+
   # Zoom
   '拡大率': |
     拡大率
@@ -141,6 +145,10 @@
   # RotateZ
   'Z軸回転': |
     Z軸回転
+
+  # (No default text available)
+  'Group2': |
+    Group2
 
   # Zoom
   '拡大率': |

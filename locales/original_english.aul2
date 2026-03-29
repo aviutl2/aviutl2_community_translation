@@ -180,6 +180,7 @@
 補間移動(時間制御)=Interpolation(Time)
 ランダム移動=Random
 瞬間移動=Teleportation
+直線移動(回転)=Linear(Rotate)
 
 ; 設定項目
 中心X=CenterX
@@ -973,6 +974,9 @@ YUVレンジ=YUVColorRange
 前のシーンに戻る(表示履歴)=MoveToPreviousScene(DisplayHistory)
 メディアを画面にフィット=FitMediaToScreen
 メディアオブジェクトの長さ補正時に開始位置を固定する=FixStartPositionWhenCorrectTheMediaObjectLength
+メディアを正面に向ける=FaceMediaForward
+回転アンカーの表示=ShowRotateAnchor
+アプリケーションを再起動=RestartApplication
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ
@@ -1072,6 +1076,13 @@ YUVの設定=setting YUV
 テキストオブジェクト=text object
 図形オブジェクト=figure object
 モデルオブジェクト=model object
+ドラッグ=drag
+クリック=click
+ダブルクリック=double click
+Z軸回転の変更=change rotate z
+縦横軸回転=rotate vertical/horizontal axis
+奥行き軸回転=rotate depth axis
+正面に向ける=face forward
 
 [Dialog]
 ; ダイアログ内の名称
