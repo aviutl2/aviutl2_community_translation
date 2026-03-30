@@ -2714,6 +2714,21 @@ Message:
   # Plugin not support current app version.
   'プラグインはこの本体バージョンをサポートしていません': |
     The plugin does not support this AviUtl2 version.
+  # text object
+  'テキストオブジェクト': |
+    Text Object
+  # model object
+  'モデルオブジェクト': |
+    Model Object
+  # drag
+  'ドラッグ': |
+    Drag
+  # click
+  'クリック': |
+    Click
+  # double click
+  'ダブルクリック': |
+    Double Click
 Dialog:
   # NewScene
   'シーンを作成': |

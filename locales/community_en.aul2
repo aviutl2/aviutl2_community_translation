@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1283 of 1418 entries (90.48%).
+; Translated 1288 of 1418 entries (90.83%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -1058,12 +1058,12 @@ YUVの設定=YUV Settings
 上位のグループ制御の対象=Enable Upper Group Control
 プラグインはこの本体バージョンをサポートしていません=The plugin does not support this AviUtl2 version.
 スクリプトはこの本体バージョンをサポートしていません=Script not support current app version.
-テキストオブジェクト=text object
+テキストオブジェクト=Text Object
 図形オブジェクト=figure object
-モデルオブジェクト=model object
-ドラッグ=drag
-クリック=click
-ダブルクリック=double click
+モデルオブジェクト=Model Object
+ドラッグ=Drag
+クリック=Click
+ダブルクリック=Double Click
 Z軸回転の変更=change rotate z
 縦横軸回転=rotate vertical/horizontal axis
 奥行き軸回転=rotate depth axis
