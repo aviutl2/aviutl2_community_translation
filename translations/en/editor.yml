@@ -1716,27 +1716,6 @@ Menu:
   # OpenWindowWhenChangeItemToTimeControl
   '時間制御の設定対象へ変更した時にウィンドウを表示': |
     Show Window When Changing Time Control Target
-  # ControlColor(&C)
-  '色変更(&C)': |
-    Change &Color
-  # ControlSize(&S)
-  'サイズ変更(&S)': |
-    Change &Size
-  # ControlFont(&F)
-  'フォント変更(&F)': |
-    Change &Font
-  # ControlSpeed(&R)
-  '表示速度変更(&R)': |
-    Change Display Speed Cont&rol
-  # ControlWait(&W)
-  '表示ウェイト(&W)': |
-    Display &Weight
-  # ControlErase(&E)
-  '表示クリア(&E)': |
-    Cl&ear Display
-  # ControlPosition(&P)
-  '座標指定(&P)': |
-    S&pecify Coordinates
   # OpenWindowWhenFocusTextObject
   'テキストオブジェクトのフォーカス時にウィンドウを表示': |
     Show Window When Text Object is Focused
@@ -2418,6 +2397,27 @@ Menu:
   # ChangeCurrentSceneName
   '現在のシーン名を変更': |
     Change Current Scene's Name
+  # ChangeColor(&C)
+  '色変更(&C)': |
+    Change &Color
+  # ChangeSize(&S)
+  'サイズ変更(&S)': |
+    Change &Size
+  # ChangeFont(&F)
+  'フォント変更(&F)': |
+    Change &Font
+  # ChangeSpeed(&R)
+  '表示速度変更(&R)': |
+    Change Display Speed Cont&rol
+  # SetWait(&W)
+  '表示ウェイト(&W)': |
+    Display &Weight
+  # EraseAll(&E)
+  '表示クリア(&E)': |
+    Cl&ear Display
+  # SetPosition(&P)
+  '座標指定(&P)': |
+    S&pecify Coordinates
 Message:
   # outputting file
   'ファイル出力中': |

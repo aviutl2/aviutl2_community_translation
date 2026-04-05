@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1288 of 1418 entries (90.83%).
+; Translated 1288 of 1435 entries (89.76%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -170,6 +170,7 @@
 ランダム移動=Random Movement
 瞬間移動=Instant Movement
 直線移動(回転)=Linear(Rotate)
+補間移動(回転)=Interpolation(Rotate)
 中心X=Center X
 中心Y=Center Y
 中心Z=Center Z
@@ -715,13 +716,6 @@ Z軸回転=Z Rotation
 制御点を削除=Remove Control Point
 中間点の位置を表示=Show Intermediate Point Position
 時間制御の設定対象へ変更した時にウィンドウを表示=Show Window When Changing Time Control Target
-色変更(&C)=Change &Color
-サイズ変更(&S)=Change &Size
-フォント変更(&F)=Change &Font
-表示速度変更(&R)=Change Display Speed Cont&rol
-表示ウェイト(&W)=Display &Weight
-表示クリア(&E)=Cl&ear Display
-座標指定(&P)=S&pecify Coordinates
 テキストオブジェクトのフォーカス時にウィンドウを表示=Show Window When Text Object is Focused
 ブックマークに追加=Add to Bookmarks
 ブックマークから削除=Remove from Bookmarks
@@ -963,6 +957,27 @@ YUVレンジ=YUV Range
 メディアを正面に向ける=FaceMediaForward
 回転アンカーの表示=ShowRotateAnchor
 アプリケーションを再起動=RestartApplication
+エイリアスをファイルに保存=SaveAliasFile
+プリセット=Preset
+色変更(&C)=Change &Color
+サイズ変更(&S)=Change &Size
+フォント変更(&F)=Change &Font
+表示速度変更(&R)=Change Display Speed Cont&rol
+表示ウェイト(&W)=Display &Weight
+表示クリア(&E)=Cl&ear Display
+座標指定(&P)=S&pecify Coordinates
+太字(&B)=Bold(&B)
+斜体(&I)=Italic(&I)
+取り消し線(&S)=Strikethrough(&S)
+プリセット適用(&P)=ApplyPreset(&P)
+ふりがな(&R)=Ruby(&R)
+字間変更(&G)=ChangeLetterSpacing(&G)
+行間変更(&G)=ChangeLineSpacing(&G)
+横スケール指定(&T)=SetWidthScale(&T)
+縦スケール指定(&T)=SetHeightScale(&T)
+角度指定(&T)=SetAngle(&T)
+コメント=Comment
+スクリプト=Script
 
 [Message]
 ファイル出力中=Exporting File
@@ -1068,6 +1083,7 @@ Z軸回転の変更=change rotate z
 縦横軸回転=rotate vertical/horizontal axis
 奥行き軸回転=rotate depth axis
 正面に向ける=face forward
+既定のプリセットは変更出来ません=default preset can not change
 
 [Dialog]
 シーンを作成=Create Scene
@@ -1249,6 +1265,7 @@ Alt+左クリックドラックで右クリックドラック操作=Assign right
 検索=Search
 重複=Duplicate
 キーの設定時にマウスの右クリックで設定を解除出来ます=While setting key, right click to clear setting.
+レイヤー編集のみ=LayerEditOnly
 
 [Name]
 最小=Minimum

@@ -151,6 +151,10 @@ Effect:
   '直線移動(回転)': |
     直線移動(回転)
 
+  # Interpolation(Rotate)
+  '補間移動(回転)': |
+    補間移動(回転)
+
   # CenterX
   '中心X': |
     中心X
@@ -2316,34 +2320,6 @@ Menu:
   '時間制御の設定対象へ変更した時にウィンドウを表示': |
     時間制御の設定対象へ変更した時にウィンドウを表示
 
-  # ControlColor(&C)
-  '色変更(&C)': |
-    色変更(&C)
-
-  # ControlSize(&S)
-  'サイズ変更(&S)': |
-    サイズ変更(&S)
-
-  # ControlFont(&F)
-  'フォント変更(&F)': |
-    フォント変更(&F)
-
-  # ControlSpeed(&R)
-  '表示速度変更(&R)': |
-    表示速度変更(&R)
-
-  # ControlWait(&W)
-  '表示ウェイト(&W)': |
-    表示ウェイト(&W)
-
-  # ControlErase(&E)
-  '表示クリア(&E)': |
-    表示クリア(&E)
-
-  # ControlPosition(&P)
-  '座標指定(&P)': |
-    座標指定(&P)
-
   # OpenWindowWhenFocusTextObject
   'テキストオブジェクトのフォーカス時にウィンドウを表示': |
     テキストオブジェクトのフォーカス時にウィンドウを表示
@@ -3308,6 +3284,90 @@ Menu:
   'アプリケーションを再起動': |
     アプリケーションを再起動
 
+  # SaveAliasFile
+  'エイリアスをファイルに保存': |
+    エイリアスをファイルに保存
+
+  # Preset
+  'プリセット': |
+    プリセット
+
+  # ChangeColor(&C)
+  '色変更(&C)': |
+    色変更(&C)
+
+  # ChangeSize(&S)
+  'サイズ変更(&S)': |
+    サイズ変更(&S)
+
+  # ChangeFont(&F)
+  'フォント変更(&F)': |
+    フォント変更(&F)
+
+  # ChangeSpeed(&R)
+  '表示速度変更(&R)': |
+    表示速度変更(&R)
+
+  # SetWait(&W)
+  '表示ウェイト(&W)': |
+    表示ウェイト(&W)
+
+  # EraseAll(&E)
+  '表示クリア(&E)': |
+    表示クリア(&E)
+
+  # SetPosition(&P)
+  '座標指定(&P)': |
+    座標指定(&P)
+
+  # Bold(&B)
+  '太字(&B)': |
+    太字(&B)
+
+  # Italic(&I)
+  '斜体(&I)': |
+    斜体(&I)
+
+  # Strikethrough(&S)
+  '取り消し線(&S)': |
+    取り消し線(&S)
+
+  # ApplyPreset(&P)
+  'プリセット適用(&P)': |
+    プリセット適用(&P)
+
+  # Ruby(&R)
+  'ふりがな(&R)': |
+    ふりがな(&R)
+
+  # ChangeLetterSpacing(&G)
+  '字間変更(&G)': |
+    字間変更(&G)
+
+  # ChangeLineSpacing(&G)
+  '行間変更(&G)': |
+    行間変更(&G)
+
+  # SetWidthScale(&T)
+  '横スケール指定(&T)': |
+    横スケール指定(&T)
+
+  # SetHeightScale(&T)
+  '縦スケール指定(&T)': |
+    縦スケール指定(&T)
+
+  # SetAngle(&T)
+  '角度指定(&T)': |
+    角度指定(&T)
+
+  # Comment
+  'コメント': |
+    コメント
+
+  # Script
+  'スクリプト': |
+    スクリプト
+
 Message:
   # outputting file
   'ファイル出力中': |
@@ -3731,6 +3791,10 @@ Message:
   # face forward
   '正面に向ける': |
     正面に向ける
+
+  # default preset can not change
+  '既定のプリセットは変更出来ません': |
+    既定のプリセットは変更出来ません
 
 Dialog:
   # NewScene
@@ -4448,6 +4512,10 @@ Dialog:
   # While setting key, right click to clear setting.
   'キーの設定時にマウスの右クリックで設定を解除出来ます': |
     キーの設定時にマウスの右クリックで設定を解除出来ます
+
+  # LayerEditOnly
+  'レイヤー編集のみ': |
+    レイヤー編集のみ
 
 Name:
   # Min

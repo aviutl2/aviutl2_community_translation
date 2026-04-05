@@ -181,6 +181,7 @@
 ランダム移動=Random
 瞬間移動=Teleportation
 直線移動(回転)=Linear(Rotate)
+補間移動(回転)=Interpolation(Rotate)
 
 ; 設定項目
 中心X=CenterX
@@ -729,13 +730,6 @@ Z軸回転=RotateZ
 制御点を削除=DeleteControlPoint
 中間点の位置を表示=ShowObjectPoint
 時間制御の設定対象へ変更した時にウィンドウを表示=OpenWindowWhenChangeItemToTimeControl
-色変更(&C)=ControlColor(&C)
-サイズ変更(&S)=ControlSize(&S)
-フォント変更(&F)=ControlFont(&F)
-表示速度変更(&R)=ControlSpeed(&R)
-表示ウェイト(&W)=ControlWait(&W)
-表示クリア(&E)=ControlErase(&E)
-座標指定(&P)=ControlPosition(&P)
 テキストオブジェクトのフォーカス時にウィンドウを表示=OpenWindowWhenFocusTextObject
 ブックマークに追加=AddBookmark
 ブックマークから削除=DeleteBookmark
@@ -977,6 +971,28 @@ YUVレンジ=YUVColorRange
 メディアを正面に向ける=FaceMediaForward
 回転アンカーの表示=ShowRotateAnchor
 アプリケーションを再起動=RestartApplication
+エイリアスをファイルに保存=SaveAliasFile
+プリセット=Preset
+; 入力補助メニューの項目は後で調整するかもです
+色変更(&C)=ChangeColor(&C)
+サイズ変更(&S)=ChangeSize(&S)
+フォント変更(&F)=ChangeFont(&F)
+表示速度変更(&R)=ChangeSpeed(&R)
+表示ウェイト(&W)=SetWait(&W)
+表示クリア(&E)=EraseAll(&E)
+座標指定(&P)=SetPosition(&P)
+太字(&B)=Bold(&B)
+斜体(&I)=Italic(&I)
+取り消し線(&S)=Strikethrough(&S)
+プリセット適用(&P)=ApplyPreset(&P)
+ふりがな(&R)=Ruby(&R)
+字間変更(&G)=ChangeLetterSpacing(&G)
+行間変更(&G)=ChangeLineSpacing(&G)
+横スケール指定(&T)=SetWidthScale(&T)
+縦スケール指定(&T)=SetHeightScale(&T)
+角度指定(&T)=SetAngle(&T)
+コメント=Comment
+スクリプト=Script
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ
@@ -1083,6 +1099,7 @@ Z軸回転の変更=change rotate z
 縦横軸回転=rotate vertical/horizontal axis
 奥行き軸回転=rotate depth axis
 正面に向ける=face forward
+既定のプリセットは変更出来ません=default preset can not change
 
 [Dialog]
 ; ダイアログ内の名称
@@ -1265,6 +1282,7 @@ Alt+左クリックドラックで右クリックドラック操作=Alt+LeftClic
 検索=Search
 重複=Duplicate
 キーの設定時にマウスの右クリックで設定を解除出来ます=While setting key, right click to clear setting.
+レイヤー編集のみ=LayerEditOnly
 
 ;OK=OK
 ;Cancel=Cancel
