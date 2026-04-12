@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (ja)
 ; Generated automatically. Do not edit directly.
-; Translated 2053 of 2053 entries (100.0%).
+; Translated 2056 of 2056 entries (100.0%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -978,6 +978,9 @@ YUVレンジ=YUVレンジ
 角度指定(&T)=角度指定(&T)
 コメント=コメント
 スクリプト=スクリプト
+再生速度=再生速度
+フレーム移動時に音声を再生(プレビュー)=フレーム移動時に音声を再生(プレビュー)
+フレーム移動時に音声を再生(シーン再生)=フレーム移動時に音声を再生(シーン再生)
 
 [Message]
 ファイル出力中=ファイル出力中

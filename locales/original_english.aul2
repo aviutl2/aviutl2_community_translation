@@ -993,6 +993,9 @@ YUVレンジ=YUVColorRange
 角度指定(&T)=SetAngle(&T)
 コメント=Comment
 スクリプト=Script
+再生速度=PlaybackSpeed
+フレーム移動時に音声を再生(プレビュー)=PlayAudioWhenMoveFrame(Preview)
+フレーム移動時に音声を再生(シーン再生)=PlayAudioWhenMoveFrame(ScenePlayback)
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ

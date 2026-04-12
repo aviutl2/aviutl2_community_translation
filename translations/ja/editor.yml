@@ -3368,6 +3368,18 @@ Menu:
   'スクリプト': |
     スクリプト
 
+  # PlaybackSpeed
+  '再生速度': |
+    再生速度
+
+  # PlayAudioWhenMoveFrame(Preview)
+  'フレーム移動時に音声を再生(プレビュー)': |
+    フレーム移動時に音声を再生(プレビュー)
+
+  # PlayAudioWhenMoveFrame(ScenePlayback)
+  'フレーム移動時に音声を再生(シーン再生)': |
+    フレーム移動時に音声を再生(シーン再生)
+
 Message:
   # outputting file
   'ファイル出力中': |

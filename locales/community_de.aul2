@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation (de)
 ; Generated automatically. Do not edit directly.
-; Translated 84 of 1259 entries (6.67%).
+; Translated 84 of 1262 entries (6.66%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -978,6 +978,9 @@ YUVレンジ=YUV Range
 角度指定(&T)=SetAngle(&T)
 コメント=Comment
 スクリプト=Script
+再生速度=PlaybackSpeed
+フレーム移動時に音声を再生(プレビュー)=PlayAudioWhenMoveFrame(Preview)
+フレーム移動時に音声を再生(シーン再生)=PlayAudioWhenMoveFrame(ScenePlayback)
 
 [Message]
 ファイル出力中=Exporting File
