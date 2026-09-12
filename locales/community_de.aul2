@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - German (de)
 ; Generated automatically. Do not edit directly.
-; Translated 112 of 1782 entries (6.29%).
+; Translated 112 of 1788 entries (6.26%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -326,6 +326,7 @@ PCをスリープ=Sleep PC
 拡張色調補正=Extended Color Correct
 グラデーションマップ=Gradient Map
 パーティクル出力(カメラ制御)=Particle Output(Camera)
+ノイズ(仮想バッファ)=Noise(Temp Buffer)
 震える=Tremble
 振り子=Pendulum
 弾む=Bound
@@ -851,6 +852,10 @@ Y軸回転速度=Rotate YSpeed
 Z軸回転速度=Rotate ZSpeed
 回転角の基準=Rotate Angle
 回転角の基準をカメラ方向にする=Rotate To Camera Direction
+スクリプト=Script
+画像の領域外を境界色とする=Outside Image Area Use Edge Color
+マップの領域外を境界色とする=Outside Map Area Use Edge Color
+RGB毎に乗算=Multiply Each RGB
 
 [Menu]
 ファイル=File
@@ -1415,6 +1420,7 @@ Z軸回転の変更=Change rotation on Z axis
 現在のフレームをマーク=mark cursor frame
 音声出力を切替=switch audio output
 {file}を設定=set {file}
+テキストの設定対象項目がありません=no item to text setting
 
 [Name]
 最小=Minimum

@@ -499,7 +499,7 @@
   'スクリプト制御': |
     スクリプト制御
 
-  # (No default text available)
+  # Script
   'スクリプト': |
     スクリプト
 
@@ -686,6 +686,14 @@
   '元のサイズに合わせる': |
     元のサイズに合わせる
 
+  # OutsideImageAreaUseEdgeColor
+  '画像の領域外を境界色とする': |
+    画像の領域外を境界色とする
+
+  # OutsideMapAreaUseEdgeColor
+  'マップの領域外を境界色とする': |
+    マップの領域外を境界色とする
+
 'ドア(シーンチェンジ)':
   # Door(SceneChange)
   'ドア(シーンチェンジ)': |
@@ -728,6 +736,51 @@
   # Noise
   'ノイズ': |
     ノイズ
+
+  # Level
+  '強さ': |
+    強さ
+
+  # SpeedX
+  '速度X': |
+    速度X
+
+  # SpeedY
+  '速度Y': |
+    速度Y
+
+  # ChangeSpeed
+  '変化速度': |
+    変化速度
+
+  # CycleX
+  '周期X': |
+    周期X
+
+  # CycleY
+  '周期Y': |
+    周期Y
+
+  # Threshold
+  'しきい値': |
+    しきい値
+
+  # Seed
+  'シード': |
+    シード
+
+  # Blend
+  '合成モード': |
+    合成モード
+
+  # NoiseType
+  'ノイズの種類': |
+    ノイズの種類
+
+'ノイズ(仮想バッファ)':
+  # Noise(TempBuffer)
+  'ノイズ(仮想バッファ)': |
+    ノイズ(仮想バッファ)
 
   # Level
   '強さ': |

@@ -114,6 +114,7 @@ Information=Simple English Language by Kenkun
 拡張色調補正=ExtendedColorCorrect
 グラデーションマップ=GradientMap
 パーティクル出力(カメラ制御)=ParticleOutput(Camera)
+ノイズ(仮想バッファ)=Noise(TempBuffer)
 
 ; スクリプトの名称
 震える=Tremble
@@ -647,6 +648,10 @@ Y軸回転速度=RotateYSpeed
 Z軸回転速度=RotateZSpeed
 回転角の基準=RotateAngle
 回転角の基準をカメラ方向にする=RotateToCameraDirection
+スクリプト=Script
+画像の領域外を境界色とする=OutsideImageAreaUseEdgeColor
+マップの領域外を境界色とする=OutsideMapAreaUseEdgeColor
+RGB毎に乗算=MultiplyEachRGB
 
 [Menu]
 ; ウィンドウメニュー、ポップアップメニューの項目名
@@ -1214,6 +1219,7 @@ Z軸回転の変更=change rotate z
 現在のフレームをマーク=mark cursor frame
 音声出力を切替=switch audio output
 {file}を設定=set {file}
+テキストの設定対象項目がありません=no item to text setting
 
 [Dialog]
 ; ダイアログ内の名称

@@ -1871,6 +1871,22 @@
   '回転角の基準をカメラ方向にする': |
     回転角の基準をカメラ方向にする
 
+  # Script
+  'スクリプト': |
+    スクリプト
+
+  # OutsideImageAreaUseEdgeColor
+  '画像の領域外を境界色とする': |
+    画像の領域外を境界色とする
+
+  # OutsideMapAreaUseEdgeColor
+  'マップの領域外を境界色とする': |
+    マップの領域外を境界色とする
+
+  # MultiplyEachRGB
+  'RGB毎に乗算': |
+    RGB毎に乗算
+
 'Menu':
   # File
   'ファイル': |
@@ -4124,6 +4140,10 @@
   # set {file}
   '{file}を設定': |
     {file}を設定
+
+  # no item to text setting
+  'テキストの設定対象項目がありません': |
+    テキストの設定対象項目がありません
 
 'Dialog':
   # NewScene
