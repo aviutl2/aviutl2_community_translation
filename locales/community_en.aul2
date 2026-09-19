@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - English (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1397 of 1788 entries (78.13%).
+; Translated 1397 of 1794 entries (77.87%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -233,6 +233,7 @@ PCをスリープ=Sleep PC
 マーク=Mark
 メモ=Memo
 プリセットを作成 - シーン=New Preset(Scene)
+高パフォーマンスGPUを優先=Prioritize High Performance GPU
 
 [Effect]
 動画ファイル=Video File
@@ -383,6 +384,7 @@ PCをスリープ=Sleep PC
 目標中心回転=Rotate Base Target
 目標サイズ固定視野角=View Angle Base Target
 メッシュ変形=Mesh Distortion
+揺らぎ=Wobble
 基本効果=Basic Effects
 音声効果=Audio Effects
 変形=Deformation
@@ -856,6 +858,10 @@ Z軸回転速度=Rotate ZSpeed
 画像の領域外を境界色とする=Outside Image Area Use Edge Color
 マップの領域外を境界色とする=Outside Map Area Use Edge Color
 RGB毎に乗算=Multiply Each RGB
+渦度=Vorticity
+うねり=Wave
+移動速度X=Move Speed X
+移動速度Y=Move Speed Y
 
 [Menu]
 ファイル=File

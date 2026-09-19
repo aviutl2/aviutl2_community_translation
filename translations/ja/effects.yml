@@ -761,6 +761,10 @@
   '周期Y': |
     周期Y
 
+  # Vorticity
+  '渦度': |
+    渦度
+
   # Threshold
   'しきい値': |
     しきい値
@@ -805,6 +809,10 @@
   # CycleY
   '周期Y': |
     周期Y
+
+  # Vorticity
+  '渦度': |
+    渦度
 
   # Threshold
   'しきい値': |
@@ -2636,6 +2644,35 @@
   # ComplicatedQuake
   '複雑に振動': |
     複雑に振動
+
+'揺らぎ':
+  # Wobble
+  '揺らぎ': |
+    揺らぎ
+
+  # Level
+  '強さ': |
+    強さ
+
+  # Width
+  '幅': |
+    幅
+
+  # ChangeSpeed
+  '変化速度': |
+    変化速度
+
+  # MoveSpeedX
+  '移動速度X': |
+    移動速度X
+
+  # MoveSpeedY
+  '移動速度Y': |
+    移動速度Y
+
+  # Wave
+  'うねり': |
+    うねり
 
 '放射ブラー':
   # RadialBlur

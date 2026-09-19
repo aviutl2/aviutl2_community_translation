@@ -1887,6 +1887,22 @@
   'RGB毎に乗算': |
     RGB毎に乗算
 
+  # Vorticity
+  '渦度': |
+    渦度
+
+  # Wave
+  'うねり': |
+    うねり
+
+  # MoveSpeedX
+  '移動速度X': |
+    移動速度X
+
+  # MoveSpeedY
+  '移動速度Y': |
+    移動速度Y
+
 'Menu':
   # File
   'ファイル': |
@@ -5029,6 +5045,10 @@
   # NewPreset(Scene)
   'プリセットを作成 - シーン': |
     プリセットを作成 - シーン
+
+  # PrioritizeHighPerformanceGPU
+  '高パフォーマンスGPUを優先': |
+    高パフォーマンスGPUを優先
 
 'Name':
   # Min
