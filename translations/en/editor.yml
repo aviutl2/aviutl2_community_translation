@@ -1343,6 +1343,57 @@
   # GridPointY
   '縦格子点': |
     # of Vertical Points
+  # Red
+  '赤': |
+    Red
+  # Green
+  '緑': |
+    Green
+  # Blue
+  '青': |
+    Blue
+  # Gain
+  'ゲイン': |
+    Gain
+  # Gamma
+  'ガンマ': |
+    Gamma
+  # Lift
+  'リフト': |
+    Lift
+  # Offset
+  'オフセット': |
+    Offset
+  # ColorInterp
+  '色補間': |
+    Color Interpolation
+  # ShadowColor
+  '暗部色': |
+    Shadow Color
+  # HighlightColor
+  '明部色': |
+    Highlight Color
+  # DirectionX
+  '出力方向X': |
+    Output Direction X
+  # DirectionY
+  '出力方向Y': |
+    Output Direction Y
+  # DirectionZ
+  '出力方向Z': |
+    Output Direction Z
+  # RotateXSpeed
+  'X軸回転速度': |
+    X Rotation Speed
+  # RotateYSpeed
+  'Y軸回転速度': |
+    Y Rotation Speed
+  # RotateZSpeed
+  'Z軸回転速度': |
+    Z Rotation Speed
+  # Script
+  'スクリプト': |
+    Script
 'Menu':
   # File
   'ファイル': |
@@ -2499,15 +2550,27 @@
   # VisibleLayerOtherThanCursor
   '現在以外のレイヤーを表示/非表示': |
     Show/hide Layers except selected
+  # Layout
+  'レイアウト': |
+    Layout
   # CreateLayout
   'レイアウトを作成': |
     Create Layout
   # CodecSetting
   'コーデックの設定': |
     Codec Settings
+  # DeleteAllCompleted
+  '完了を全て削除': |
+    Delete All Completed
+  # DeleteAllFailed
+  '失敗を全て削除': |
+    Delete All Failed
   # LanguageFileInformation
   '言語ファイル情報': |
     Language File Information
+  # FrameRate
+  'フレームレート': |
+    Frame Rate
   # SelectLayerWhenClickObject
   'オブジェクトのクリック時にレイヤーを選択': |
     Select Layer When Object is Clicked
