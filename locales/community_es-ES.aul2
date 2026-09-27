@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - Spanish (Spain) (es-ES)
 ; Generated automatically. Do not edit directly.
-; Translated 0 of 1794 entries (0.0%).
+; Translated 0 of 1795 entries (0.0%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -1304,6 +1304,7 @@ YUVレンジ=YUV Range
 ラベルなし=Unlabeled
 シーンをプリセットから追加=Add Scene From Preset
 シーンのプリセットを作成=Create Scene Preset
+クリックした位置へ移動=Move To Click Position
 
 [Message]
 ファイル出力中=Exporting File

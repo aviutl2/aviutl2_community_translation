@@ -1101,6 +1101,7 @@ YUVレンジ=YUVColorRange
 ラベルなし=Unlabeled
 シーンをプリセットから追加=AddSceneFromPreset
 シーンのプリセットを作成=CreateScenePreset
+クリックした位置へ移動=MoveToClickPosition
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ
