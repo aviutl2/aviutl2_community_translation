@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - Spanish (Spain) (es-ES)
 ; Generated automatically. Do not edit directly.
-; Translated 0 of 1795 entries (0.0%).
+; Translated 0 of 1796 entries (0.0%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -862,6 +862,7 @@ RGB毎に乗算=Multiply Each RGB
 うねり=Wave
 移動速度X=Move Speed X
 移動速度Y=Move Speed Y
+スペクトル=Spectrum
 
 [Menu]
 ファイル=File

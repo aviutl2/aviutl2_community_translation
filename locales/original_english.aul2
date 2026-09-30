@@ -657,6 +657,7 @@ RGB毎に乗算=MultiplyEachRGB
 うねり=Wave
 移動速度X=MoveSpeedX
 移動速度Y=MoveSpeedY
+スペクトル=Spectrum 
 
 [Menu]
 ; ウィンドウメニュー、ポップアップメニューの項目名
