@@ -1,1 +1,17 @@
+'Tips.動画ファイル':
+  # 指定した映像ファイルを読み込みます
+  'effect.name': |
+    Carga el archivo del vídeo especificado
+  # 再生範囲の場合は映像の再生範囲を指定します
+  # それ以外では表示する映像の位置を指定します
+  '再生位置': |
+    Para especificar el rango de reproducción, indique el rango de reproducción del vídeo
+    De lo contrario, indique la posición del vídeo que se mostrará
+  # 再生速度を指定します
+  # マイナス値を設定すると逆再生になります
+  # 再生速度を変化させた場合は中間点のみで速度が変更されます
+  '再生速度': |
+    Especifique la velocidad de reproducción
+    Si introduce un valor negativo, la reproducción se reproducirá en sentido inverso
+    Al cambiar la velocidad de reproducción, esta solo se modificará en los puntos medios
 

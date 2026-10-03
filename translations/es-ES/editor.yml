@@ -1,1 +1,29 @@
+'Effect':
+  # TempBuffer
+  '仮想バッファ': |
+    búfer virtual
+  # BasicEffect
+  '基本効果': |
+    Efectos básicos
+  # AudioEffect
+  '音声効果': |
+    Efectos de audio
+  # Transform
+  '変形': |
+    Deformación
+  # LightEffect
+  '光効果': |
+    Efectos de luz
+  # Decoration
+  '装飾': |
+    Decoración
+  # Extract
+  '抽出': |
+    Extracción
+  # Color
+  '色調整': |
+    Escala de colores
+  # Linear(Time)
+  '直線移動(時間制御)': |
+    Movimiento lineal (control del tiempo)
 

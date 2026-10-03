@@ -1,1 +1,27 @@
+'ぼかし':
+  # Blur
+  'ぼかし': |
+    Desenfoque
+  # Range
+  '範囲': |
+    Rango
+  # Aspect
+  '縦横比': |
+    Aspecto
+  # LuminanceLevel
+  '光の強さ': |
+    Intensidad de luz
+  # FixedSize
+  'サイズ固定': |
+    Tamaño fijo
+'カメラ制御':
+  # (No default text available)
+  'X': |
+    X
+  # (No default text available)
+  'Y': |
+    Y
+  # (No default text available)
+  'Z': |
+    Z
 

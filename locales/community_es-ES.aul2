@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - Spanish (Spain) (es-ES)
 ; Generated automatically. Do not edit directly.
-; Translated 0 of 1796 entries (0.0%).
+; Translated 22 of 1800 entries (1.22%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -9,7 +9,7 @@ Information=AviUtl2 Community Translation: Spanish (Spain) (es-ES) - https://git
 SubLanguage=English
 
 [AviUtl2 Community Translation]
-翻訳ファイルが更新されました。AviUtl2を再起動すると反映されます。=The translation files have been updated, restart AviUtl2 to apply.
+翻訳ファイルが更新されました。AviUtl2を再起動すると反映されます。=El archivo de traducción se ha actualizado. Reinicia AviUtl2 para aplicar los cambios.
 
 [Dialog]
 シーンを作成=Create Scene
@@ -262,7 +262,7 @@ PCをスリープ=Sleep PC
 斜めクリッピング=Clipping(Angle)
 扇クリッピング=Circular Clipping
 マスク=Mask
-ぼかし=Blur
+ぼかし=Desenfoque
 レンズブラー=Lens Blur
 放射ブラー=Radial Blur
 方向ブラー=Directional Blur
@@ -318,7 +318,7 @@ PCをスリープ=Sleep PC
 モーションブラー=Motion Blur
 ローテーション=Rotate
 画像合成(オブジェクト)=Image composition (object)
-仮想バッファ=Temporal Buffer
+仮想バッファ=búfer virtual
 仮想バッファ出力=Temp Buffer Output
 点光源(カメラ制御)=Point Light(Camera)
 スポット光源(カメラ制御)=Spot Light(Camera)
@@ -385,13 +385,13 @@ PCをスリープ=Sleep PC
 目標サイズ固定視野角=View Angle Base Target
 メッシュ変形=Mesh Distortion
 揺らぎ=Wobble
-基本効果=Basic Effects
-音声効果=Audio Effects
-変形=Deformation
-光効果=Light Effects
-装飾=Decoration
-抽出=Extraction
-色調整=Color Adjustment
+基本効果=Efectos básicos
+音声効果=Efectos de audio
+変形=Deformación
+光効果=Efectos de luz
+装飾=Decoración
+抽出=Extracción
+色調整=Escala de colores
 加工=Processing
 配置=Arrangement
 切り替え効果=Transition Effects
@@ -403,7 +403,7 @@ PCをスリープ=Sleep PC
 移動無し=No Movement
 再生範囲=Playback Range
 直線移動=Linear Movement
-直線移動(時間制御)=Linear Movement (Time Control)
+直線移動(時間制御)=Movimiento lineal (control del tiempo)
 補間移動=Interpolated Movement
 補間移動(時間制御)=Interpolated Movement (Time Control)
 ランダム移動=Random Movement
@@ -1567,9 +1567,9 @@ effect.name=指定したモデルファイルを読み込みます\nobjファイ
 座標系を調整=モデルの座標系を調整します
 
 [Tips.動画ファイル]
-effect.name=指定した映像ファイルを読み込みます
-再生位置=再生範囲の場合は映像の再生範囲を指定します\nそれ以外では表示する映像の位置を指定します
-再生速度=再生速度を指定します\nマイナス値を設定すると逆再生になります\n再生速度を変化させた場合は中間点のみで速度が変更されます
+effect.name=Carga el archivo del vídeo especificado
+再生位置=Para especificar el rango de reproducción, indique el rango de reproducción del vídeo\nDe lo contrario, indique la posición del vídeo que se mostrará
+再生速度=Especifique la velocidad de reproducción\nSi introduce un valor negativo, la reproducción se reproducirá en sentido inverso\nAl cambiar la velocidad de reproducción, esta solo se modificará en los puntos medios
 トラック=マルチトラック映像のトラックを選択します
 
 [Tips.図形]
@@ -1646,10 +1646,16 @@ effect.name=指定の音声ファイルや編集している音声の波形を�
 縦スペース=波形の解像度毎の縦間隔を指定します
 
 [ぼかし]
-ぼかし=Blur
-範囲=Range
-縦横比=Compression
-サイズ固定=Lock Size
+ぼかし=Desenfoque
+範囲=Rango
+縦横比=Aspecto
+光の強さ=Intensidad de luz
+サイズ固定=Tamaño fijo
+
+[カメラ制御]
+X=X
+Y=Y
+Z=Z
 
 [カラーキー]
 カラーキー=Color Key
