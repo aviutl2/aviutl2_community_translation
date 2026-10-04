@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - English (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1418 of 1796 entries (78.95%).
+; Translated 1418 of 1802 entries (78.69%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -234,6 +234,8 @@ PCをスリープ=Sleep PC
 メモ=Memo
 プリセットを作成 - シーン=New Preset(Scene)
 高パフォーマンスGPUを優先=Prioritize High Performance GPU
+出力プラグインの設定=Output Plugin
+プラグイン(表示順)=Plugin(Display Order)
 
 [Effect]
 動画ファイル=Video File
@@ -863,6 +865,9 @@ RGB毎に乗算=Multiply Each RGB
 移動速度X=Move Speed X
 移動速度Y=Move Speed Y
 スペクトル=Spectrum
+マップの反転=Invert Map
+色収差=Chromatic Aberration
+色収差(拡大)=Chromatic Aberration(Zoom)
 
 [Menu]
 ファイル=File
@@ -1306,6 +1311,7 @@ YUVレンジ=YUV Range
 シーンをプリセットから追加=Add Scene From Preset
 シーンのプリセットを作成=Create Scene Preset
 クリックした位置へ移動=Move To Click Position
+出力プラグインの設定=Output Plugin
 
 [Message]
 ファイル出力中=Exporting File

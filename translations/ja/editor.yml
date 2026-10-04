@@ -1907,6 +1907,18 @@
   'スペクトル': |
     スペクトル
 
+  # InvertMap
+  'マップの反転': |
+    マップの反転
+
+  # ChromaticAberration
+  '色収差': |
+    色収差
+
+  # ChromaticAberration(Zoom)
+  '色収差(拡大)': |
+    色収差(拡大)
+
 'Menu':
   # File
   'ファイル': |
@@ -3672,6 +3684,10 @@
   'クリックした位置へ移動': |
     クリックした位置へ移動
 
+  # OutputPlugin
+  '出力プラグインの設定': |
+    出力プラグインの設定
+
 'Message':
   # exporting file
   'ファイル出力中': |
@@ -5057,6 +5073,14 @@
   # PrioritizeHighPerformanceGPU
   '高パフォーマンスGPUを優先': |
     高パフォーマンスGPUを優先
+
+  # OutputPlugin
+  '出力プラグインの設定': |
+    出力プラグインの設定
+
+  # Plugin(DisplayOrder)
+  'プラグイン(表示順)': |
+    プラグイン(表示順)
 
 'Name':
   # Min

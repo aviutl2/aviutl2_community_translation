@@ -657,7 +657,10 @@ RGB毎に乗算=MultiplyEachRGB
 うねり=Wave
 移動速度X=MoveSpeedX
 移動速度Y=MoveSpeedY
-スペクトル=Spectrum 
+スペクトル=Spectrum
+マップの反転=InvertMap
+色収差=ChromaticAberration
+色収差(拡大)=ChromaticAberration(Zoom)
 
 [Menu]
 ; ウィンドウメニュー、ポップアップメニューの項目名
@@ -1103,6 +1106,7 @@ YUVレンジ=YUVColorRange
 シーンをプリセットから追加=AddSceneFromPreset
 シーンのプリセットを作成=CreateScenePreset
 クリックした位置へ移動=MoveToClickPosition
+出力プラグインの設定=OutputPlugin
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ
@@ -1452,6 +1456,8 @@ PCをスリープ=SleepPC
 メモ=Memo
 プリセットを作成 - シーン=NewPreset(Scene)
 高パフォーマンスGPUを優先=PrioritizeHighPerformanceGPU
+出力プラグインの設定=OutputPlugin
+プラグイン(表示順)=Plugin(DisplayOrder)
 ;OK=OK
 ;Cancel=Cancel
 
