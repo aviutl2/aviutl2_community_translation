@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - Spanish (Spain) (es-ES)
 ; Generated automatically. Do not edit directly.
-; Translated 22 of 1806 entries (1.22%).
+; Translated 22 of 1810 entries (1.22%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -868,6 +868,10 @@ RGB毎に乗算=Multiply Each RGB
 マップの反転=Invert Map
 色収差=Chromatic Aberration
 色収差(拡大)=Chromatic Aberration(Zoom)
+レイヤー名=Layer Name
+背景色=BG Color
+表示=Display
+片方向のみ=One Way Only
 
 [Menu]
 ファイル=File
