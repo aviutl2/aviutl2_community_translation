@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - Spanish (Spain) (es-ES)
 ; Generated automatically. Do not edit directly.
-; Translated 22 of 1810 entries (1.22%).
+; Translated 26 of 1810 entries (1.44%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -1489,10 +1489,10 @@ effect.name=画像をグラデーションさせます
 
 [Tips.グラデーションマップ]
 effect.name=画像の明暗に合わせて色を置き換えます
-色補間=指定した色の間を補間する色空間を指定します
-暗部色=グラデーションの暗部の色を指定します
-明部色=グラデーションの明部の色を指定します
-パターン画像=グラデーションの色(カラーバー)の画像を指定します
+色補間=Especifica un espacio de color para la interpolación entre colores específicos
+暗部色=Especifique el color de las zonas resaltadas en el degradado
+明部色=Especifique el color de las zonas resaltadas en el degradado
+パターン画像=Especifique una imagen de un color degradado (barra de color)
 
 [Tips.グループ制御]
 effect.name=下位のレイヤーにあるオブジェクトの座標を纏めて制御します
@@ -1577,7 +1577,7 @@ effect.name=指定したモデルファイルを読み込みます\nobjファイ
 座標系を調整=モデルの座標系を調整します
 
 [Tips.動画ファイル]
-effect.name=Carga el archivo del vídeo especificado
+effect.name=Carga el archivo de vídeo especificado
 再生位置=Para especificar el rango de reproducción, indique el rango de reproducción del vídeo\nDe lo contrario, indique la posición del vídeo que se mostrará
 再生速度=Especifique la velocidad de reproducción\nSi introduce un valor negativo, la reproducción se reproducirá en sentido inverso\nAl cambiar la velocidad de reproducción, esta solo se modificará en los puntos medios
 トラック=マルチトラック映像のトラックを選択します
