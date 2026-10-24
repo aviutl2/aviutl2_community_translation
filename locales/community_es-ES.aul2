@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - Spanish (Spain) (es-ES)
 ; Generated automatically. Do not edit directly.
-; Translated 26 of 1810 entries (1.44%).
+; Translated 26 of 1813 entries (1.43%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -1316,6 +1316,9 @@ YUVレンジ=YUV Range
 シーンのプリセットを作成=Create Scene Preset
 クリックした位置へ移動=Move To Click Position
 出力プラグインの設定=Output Plugin
+ウィンドウのグループを作成=Create Window Group
+ウィンドウのグループに追加=Add Window Group
+ウィンドウのグループから外す=Remove Window Group
 
 [Message]
 ファイル出力中=Exporting File

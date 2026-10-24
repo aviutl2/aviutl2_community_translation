@@ -1111,6 +1111,9 @@ YUVレンジ=YUVColorRange
 シーンのプリセットを作成=CreateScenePreset
 クリックした位置へ移動=MoveToClickPosition
 出力プラグインの設定=OutputPlugin
+ウィンドウのグループを作成=CreateWindowGroup
+ウィンドウのグループに追加=AddWindowGroup
+ウィンドウのグループから外す=RemoveWindowGroup
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ
