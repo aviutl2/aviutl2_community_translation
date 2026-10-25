@@ -77,6 +77,9 @@
   # Interpolation(Rotate)
   '補間移動(回転)': |
     Interpolated Movement (Rotation)
+  # Delta
+  '移動量指定': |
+    Delta
   # CenterX
   '中心X': |
     Center X
@@ -347,6 +350,9 @@
   # OutputToMovingDirection
   '出力方向の基準を移動方向にする': |
     Set Output Direction Based on Movement Direction
+  # RotateToOutputDirection
+  '回転角の基準を出力方向にする': |
+    Set Rotation Angle Based on Output Direction
   # RandomRotation
   '3Dランダム回転': |
     3D Random Rotation
@@ -1391,9 +1397,60 @@
   # RotateZSpeed
   'Z軸回転速度': |
     Z Rotation Speed
+  # RotateAngle
+  '回転角の基準': |
+    Rotation Angle Reference
+  # RotateToCameraDirection
+  '回転角の基準をカメラ方向にする': |
+    Set Rotation Angle Based on Camera Direction
   # Script
   'スクリプト': |
     Script
+  # OutsideImageAreaUseEdgeColor
+  '画像の領域外を境界色とする': |
+    Set the area outside the image as the border color
+  # OutsideMapAreaUseEdgeColor
+  'マップの領域外を境界色とする': |
+    Set the area outside the map as the border color
+  # MultiplyEachRGB
+  'RGB毎に乗算': |
+    Multiply each RGB channel
+  # Vorticity
+  '渦度': |
+    Vorticity
+  # Wave
+  'うねり': |
+    Swell
+  # MoveSpeedX
+  '移動速度X': |
+    Movement Speed X
+  # MoveSpeedY
+  '移動速度Y': |
+    Movement Speed Y
+  # Spectrum
+  'スペクトル': |
+    Spectrum
+  # InvertMap
+  'マップの反転': |
+    Invert Map
+  # ChromaticAberration
+  '色収差': |
+    Chromatic Aberration
+  # ChromaticAberration(Zoom)
+  '色収差(拡大)': |
+    Chromatic Aberration (Zoom)
+  # LayerName
+  'レイヤー名': |
+    Layer Name
+  # BG Color
+  '背景色': |
+    BG Color
+  # Display
+  '表示': |
+    Display
+  # OneWayOnly
+  '片方向のみ': |
+    One-way only
 'Menu':
   # File
   'ファイル': |
@@ -1488,6 +1545,9 @@
   # SelectCurrentFrameObject
   '現在のフレームのオブジェクトを選択': |
     Select Objects at Current Frame
+  # SelectCurrentFrameObject(Reverse)
+  '現在のフレームのオブジェクトを選択(逆順)': |
+    Select objects in the current frame (in reverse order)
   # Cut
   '切り取り': |
     Cut
@@ -2423,7 +2483,7 @@
     Delete Current Layer
   # Scene
   'シーン操作': |
-
+    Scene Controls
   # DuplicateCurrentScene
   '現在のシーンを複製': |
     Duplicate Current Scene
@@ -2508,6 +2568,9 @@
   # Strikethrough(&S)
   '取り消し線(&S)': |
     Strike-through(&S)
+  # Emoji(&E)
+  '絵文字(&E)': |
+    Emoji(&E)
   # ApplyPreset(&P)
   'プリセット適用(&P)': |
     Apply Preset(&P)
@@ -2556,24 +2619,174 @@
   # CreateLayout
   'レイアウトを作成': |
     Create Layout
+  # InterruptExportFile
+  'ファイル出力を中断': |
+    Abort Export File
+  # ReferenceExpression
+  '参照式': |
+    Reference Expression
   # CodecSetting
   'コーデックの設定': |
     Codec Settings
+  # Repeat
+  '繰り返し': |
+    Repeat
+  # FontFileFolder
+  'フォントファイルフォルダ': |
+    Font File Folder
+  # BatchExport
+  'バッチ出力': |
+    Batch Export
+  # State
+  '状態': |
+    State
+  # NotExported
+  '未出力': |
+    Not Exported
+  # OnHold
+  '保留': |
+    Pending
   # DeleteAllCompleted
   '完了を全て削除': |
     Delete All Completed
   # DeleteAllFailed
   '失敗を全て削除': |
     Delete All Failed
+  # AutomaticallyDeleteCompletedBatch
+  '正常に完了したバッチを自動的に削除': |
+    Automatically delete completed batches
   # LanguageFileInformation
   '言語ファイル情報': |
     Language File Information
+  # CopyClipboardInPngFormat
+  'クリップボードにPNG形式でコピー': |
+    Copy to the clipboard as PNG
+  # SettingCurrentSceneGrid(BPM)
+  '現在のシーンのグリッド(BPM)を設定': |
+    Set the grid (BPM) for the current scene
+  # LinkObjectPointAndControlPoint
+  '中間点と制御点をリンク': |
+    Link Midpoints and Control Points
+  # HorizontalOnly
+  '横方向のみ': |
+    Horizontal Only
+  # GroupSliderButtons
+  'スライダーの増減ボタンを纏める': |
+    Group Increase/Decrease Buttons on a Slider
   # FrameRate
   'フレームレート': |
     Frame Rate
+  # Normal
+  '標準': |
+    Standard
+  # AdjustToAudioDuration
+  'オーディオの長さに合わせて調整': |
+    Adjust to match audio duration
+  # ForceConstantFrameRate
+  '強制フレームレート固定': |
+    Forced Frame Rate Lock
+  # EnableObjectPointAndControlPointLinkWhenChangeToTimeControl
+  '時間制御へ変更した時に中間点と制御点のリンクを有効にする': |
+    Enable the link between midpoint and control point when switching to time control
+  # ClippingObject
+  'クリッピングオブジェクト': |
+    Clipping Objects
+  # CameraTargetObject
+  'カメラ制御の対象': |
+    Camera Control Target
+  # EnableClippingObject
+  'クリッピングオブジェクトの有効・無効': |
+    Enable/Disable Clipping Objects
+  # EnableCameraTargetObject
+  'カメラ制御の対象オブジェクトの有効・無効': |
+    Enable/Disable Camera Target Objects
+  # ClickToStopPreview
+  'プレビュー再生をクリックで停止': |
+    Click to Stop Preview
+  # MarkFrame
+  'フレームをマーク': |
+    Mark Frame
+  # DeleteMark
+  'マークを削除': |
+    Delete Mark
+  # ChangeMarkMemo
+  'マークのメモを変更': |
+    Edit Mark Note
+  # NextMark
+  '次のマークに移動': |
+    Move to Next Mark
+  # PreviousMark
+  '前のマークに移動': |
+    Move to Previous Mark
+  # MarkCursorFrame
+  '現在のフレームをマーク': |
+    Mark Current Frame
+  # MarkList
+  'マークリスト': |
+    Mark List
+  # AddGrid(BPM)Section
+  'グリッド(BPM)区間を追加': |
+    Add Grid (BPM)
+  # DeleteGrid(BPM)Section
+  'グリッド(BPM)区間を削除': |
+    Delete Grid (BPM)
+  # SettingGrid(BPM)Section
+  'グリッド(BPM)区間を設定': |
+    Grid (BPM) Settings
+  # OpenWindowWhenFocusObject
+  'オブジェクトのフォーカス時にウィンドウを表示': |
+    Show Window When Object is Focused
   # SelectLayerWhenClickObject
   'オブジェクトのクリック時にレイヤーを選択': |
     Select Layer When Object is Clicked
+  # ClippingWithUpperObject
+  '上のオブジェクトでクリッピング': |
+    Clip with the object above
+  # EnableClippingWithUpperObject
+  '上のオブジェクトでクリッピングの有効・無効': |
+    Enable/Disable Clipping with the object above
+  # AddMediaObjectToCursorFrame
+  '現在のフレームにメディアオブジェクトを追加': |
+    Add media object to current frame
+  # AddFilterObjectToCursorFrame
+  '現在のフレームにフィルタオブジェクトを追加': |
+    Add filter object to current frame
+  # AddFilterToObject
+  'オブジェクトにフィルタ効果を追加': |
+    Add filter to object
+  # ApplyPresetToObject
+  'オブジェクトにプリセットを適用': |
+    Apply preset to object
+  # AlwaysDisplayColorCode
+  'カラーコードを常に表示': |
+    Always display color code
+  # ShowAll
+  '全て表示': |
+    Show all
+  # Unlabeled
+  'ラベルなし': |
+    Unlabeled
+  # AddSceneFromPreset
+  'シーンをプリセットから追加': |
+    Add scene from preset
+  # CreateScenePreset
+  'シーンのプリセットを作成': |
+    Create scene preset
+  # MoveToClickPosition
+  'クリックした位置へ移動': |
+    Move to the clicked position
+  # OutputPlugin
+  '出力プラグインの設定': |
+    Output Plugin Settings
+  # CreateWindowGroup
+  'ウィンドウのグループを作成': |
+    Create Window Group
+  # AddWindowGroup
+  'ウィンドウのグループに追加': |
+    Add Window Group
+  # RemoveWindowGroup
+  'ウィンドウのグループから外す': |
+    Remove Window Group
 'Message':
   # exporting file
   'ファイル出力中': |
@@ -2891,6 +3104,12 @@
   # change rotate z
   'Z軸回転の変更': |
     Change rotation on Z axis
+  # rotate vertical/horizontal axis
+  '縦横軸回転': |
+    Rotate vertical/horizontal axis
+  # rotate depth axis
+  '奥行き軸回転': |
+    Rotate depth axis
   # face forward
   '正面に向ける': |
     Face to the front
@@ -2900,7 +3119,58 @@
   # exist same name layout
   # overwrite?
   '同名のレイアウトが存在しています\n変更しますか？': |
-    \n
+    A layout with the same name already exists.\nDo you want to change it?
+  # failed save layout
+  'レイアウトの保存に失敗しました': |
+    Failed to save layout
+  # failed load layout
+  'レイアウトの読み込みに失敗しました': |
+    Failed to load layout
+  # select color
+  '色を選択': |
+    Select color
+  # save setting preset
+  '設定のプリセットを保存': |
+    Save setting preset
+  # setting preset saved
+  '設定のプリセットを保存しました': |
+    Setting preset saved
+  # please set preset name to save
+  '保存するプリセット名を指定してください': |
+    Please set preset name to save
+  # edit reference expression
+  '参照式を編集': |
+    Edit reference expression
+  # set each section
+  '区間毎に設定': |
+    Set each section
+  # export file is failed
+  'ファイル出力に失敗しました': |
+    Failed to export file
+  # delete?
+  '削除しますか？': |
+    Delete?
+  # can not delete
+  '削除出来ません': |
+    Cannot be deleted
+  # can not change
+  '変更出来ません': |
+    Cannot be changed
+  # setting input
+  '入力設定': |
+    Input settings
+  # mark cursor frame
+  '現在のフレームをマーク': |
+    Mark the current frame
+  # switch audio output
+  '音声出力を切替': |
+    Switch Audio Output
+  # set {file}
+  '{file}を設定': |
+    Set {file}
+  # no item to text setting
+  'テキストの設定対象項目がありません': |
+    No text setting target items
 'Dialog':
   # NewScene
   'シーンを作成': |
@@ -3304,6 +3574,9 @@
   # DuplicateScene
   'シーンを複製': |
     Duplicate Scene
+  # Alt+LeftClickDragToRghtClickDrag
+  'Alt+左クリックドラッグで右クリックドラッグ操作': |
+    Assign right-drag to Alt + left-drag
   # Please enter key
   'キーを入力してください': |
     Input the key
@@ -3418,21 +3691,159 @@
   # Do not uninstall
   'アンインストールしない': |
     Don't Uninstall
+  # SliderButtonMoveStep
+  '増減ボタンの移動単位': |
+    Movement Step for Slider Button
+  # MouseWheelMoveStep
+  'ホイール操作の移動単位': |
+    Movement Step for Mouse Wheel
   # PackageConflict
   'パッケージの競合': |
     Package Conflict
   # Search
   '検索': |
     Search
+  # Duplicate
+  '重複': |
+    Duplicate
+  # While setting key, right click to clear setting.
+  'キーの設定時にマウスの右クリックで設定を解除出来ます': |
+    While setting keys, right click to clear settings
   # LayerEditOnly
   'レイヤー編集のみ': |
     Only edit layers
+  # InputAssistKey
+  '入力補助のキーの組み合わせ': |
+    Key Combinations for Input Assistance
   # WithCtrlKeyDown
   'Ctrlキーを押しながら': |
     While holding Ctrl
   # WithAltKeyDown
   'Altキーを押しながら': |
     While holding Alt
+  # CreateLayout
+  'レイアウトを作成': |
+    Create Layout
+  # LayoutName
+  'レイアウト名': |
+    Layout Name
+  # LoadSettingFromPreset
+  '設定のプリセットから読込': |
+    Load settings from preset
+  # ReferenceExpression
+  '参照式': |
+    Reference Expression
+  # VideoFormat
+  'ビデオ形式': |
+    Video Format
+  # AudioFormat
+  'オーディオ形式': |
+    Audio Format
+  # CodecSetting
+  'コーデックの設定': |
+    Codec Settings
+  # Codec
+  'コーデック': |
+    Codec
+  # YUV Compress
+  'YUV展開': |
+    Compress YUV
+  # YUV Decompress
+  'YUV圧縮': |
+    Decompress YUV
+  # Codec setting for AVI file input/output of main unit function.
+  '本体機能のAVIファイル入出力時のコーデック設定になります': |
+    Codec setting for importing/exporting AVI file using the built-in functions
+  # Also apply to font list box
+  'フォントのリストボックス一覧にも適用する': |
+    Also apply to font list box
+  # AddBatch
+  'バッチ登録': |
+    Add Batch
+  # BatchExport
+  'バッチ出力': |
+    Batch Export
+  # NotExported
+  '未出力': |
+    Not Exported
+  # Completed
+  '完了': |
+    Completed
+  # Failed
+  '失敗': |
+    Failed
+  # OnHold
+  '保留': |
+    Pending
+  # Exporting
+  '出力中': |
+    Exporting
+  # List
+  'リスト': |
+    List
+  # Export
+  '出力': |
+    Export
+  # State
+  '状態': |
+    Status
+  # Start
+  '開始': |
+    Start
+  # Interrupt
+  '中断': |
+    Abort
+  # Action on batch completion
+  'バッチ出力完了時の動作': |
+    Action on batch completion
+  # None
+  '何もしない': |
+    Do nothing
+  # ExitApplication
+  'アプリケーションを終了': |
+    Exit application
+  # ShutdownPC
+  'PCをシャットダウン': |
+    Shut down the PC
+  # SleepPC
+  'PCをスリープ': |
+    Put PC to sleep
+  # LanguageFileInformation
+  '言語ファイル情報': |
+    Language File Information
+  # Information
+  '情報': |
+    Information
+  # MoveMode
+  'トラックバー移動': |
+    Move Mode
+  # StartPosition
+  '開始位置': |
+    Start Position
+  # Offset
+  'オフセット': |
+    Offset
+  # SaveMainWindowPosition
+  'メインウィンドウの位置も保存する': |
+    Save main window position
+  # Mark
+  'マーク': |
+    Mark
+  # Memo
+  'メモ': |
+    Memo
+  # NewPreset(Scene)
+  'プリセットを作成 - シーン': |
+    Create Preset - Scene
+  # PrioritizeHighPerformanceGPU
+  '高パフォーマンスGPUを優先': |
+    Prioritize High-Performance GPUs
+  # OutputPlugin
+  '出力プラグインの設定': |
+    Output Plugin
+  # Plugin(DisplayOrder)
+  'プラグイン(表示順)': |
+    Plugin (Display Order)
 'Name':
   # Min
   '最小': |
@@ -3446,4 +3857,47 @@
   # Med
   '中央': |
     Medium
+'Setup':
+  # Update {app}
+  '{app}を更新インストールします': |
+    Update {app}
+  # Install {app}
+  '{app}をインストールします': |
+    Install {app}
+  # Are you sure you want to uninstall {app}?
+  '{app}をアンインストールしますか？': |
+    Are you sure you want to uninstall {app}?
+  # Installation folder
+  'インストールフォルダ': |
+    Installation folder
+  # Browse
+  '参照': |
+    Browse
+  # Create a desttop icon
+  'ディスクトップにアイコンを作成する': |
+    Create a desktop icon
+  # Associate {ext} files with the application
+  '{ext}ファイルをアプリケーションに関連付ける': |
+    Associate {ext} files with the application
+  # OK
+  'OK': |
+    OK
+  # Cancel
+  'キャンセル': |
+    Cancel
+  # Are you sure you want to cancel the setup?
+  'セットアップを中止しますか？': |
+    Are you sure you want to cancel the setup?
+  # Installation is complete
+  'インストールが完了しました': |
+    Installation is complete
+  # Uninstallation is completed
+  'アンインストールが完了しました': |
+    Uninstallation is complete
+  # The file is locked by another application
+  '別のアプリケーションにファイルがロックされています': |
+    The file is locked by another application
+  # Please close the application and try again
+  '該当アプリケーションを終了して再試行してください': |
+    Please close the application and try again
 

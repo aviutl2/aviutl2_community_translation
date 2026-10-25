@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - English (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1418 of 1809 entries (78.39%).
+; Translated 1739 of 1959 entries (88.77%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -146,7 +146,7 @@ VRAMデータキャッシュサイズ [MB]=VRAM Data Cache Size [MB]
 決定ボタンが無い時のみ=Only When There Is No Confirm Button
 ダイアログをEnterキーで決定=Confirm Dialog with Enter Key
 シーンを複製=Duplicate Scene
-Alt+左クリックドラッグで右クリックドラッグ操作=Alt+Left Click Drag To Rght Click Drag
+Alt+左クリックドラッグで右クリックドラッグ操作=Assign right-drag to Alt + left-drag
 キーを入力してください=Input the key
 フィルタプラグイン=Filter Plugin
 スクリプトモジュール=Script Module
@@ -185,57 +185,57 @@ Alt+左クリックドラッグで右クリックドラッグ操作=Alt+Left Cli
 ※アンインストール後にアプリケーションを再起動します=Application restarts after uninstallation.
 このプラグイン・スクリプトをアンインストールする=Uninstall this Plugin/Script
 アンインストールしない=Don't Uninstall
-増減ボタンの移動単位=Slider Button Move Step
-ホイール操作の移動単位=Mouse Wheel Move Step
+増減ボタンの移動単位=Movement Step for Slider Button
+ホイール操作の移動単位=Movement Step for Mouse Wheel
 パッケージの競合=Package Conflict
 検索=Search
 重複=Duplicate
-キーの設定時にマウスの右クリックで設定を解除出来ます=While setting key, right click to clear setting.
+キーの設定時にマウスの右クリックで設定を解除出来ます=While setting keys, right click to clear settings
 レイヤー編集のみ=Only edit layers
-入力補助のキーの組み合わせ=Input Assist Key
+入力補助のキーの組み合わせ=Key Combinations for Input Assistance
 Ctrlキーを押しながら=While holding Ctrl
 Altキーを押しながら=While holding Alt
 レイアウトを作成=Create Layout
 レイアウト名=Layout Name
-設定のプリセットから読込=Load Setting From Preset
+設定のプリセットから読込=Load settings from preset
 参照式=Reference Expression
 ビデオ形式=Video Format
 オーディオ形式=Audio Format
-コーデックの設定=Codec Setting
+コーデックの設定=Codec Settings
 コーデック=Codec
-YUV展開=YUV Compress
-YUV圧縮=YUV Decompress
-本体機能のAVIファイル入出力時のコーデック設定になります=Codec setting for AVI file input/output of main unit function.
+YUV展開=Compress YUV
+YUV圧縮=Decompress YUV
+本体機能のAVIファイル入出力時のコーデック設定になります=Codec setting for importing/exporting AVI file using the built-in functions
 フォントのリストボックス一覧にも適用する=Also apply to font list box
 バッチ登録=Add Batch
 バッチ出力=Batch Export
 未出力=Not Exported
 完了=Completed
 失敗=Failed
-保留=On Hold
+保留=Pending
 出力中=Exporting
 リスト=List
 出力=Export
-状態=State
+状態=Status
 開始=Start
-中断=Interrupt
+中断=Abort
 バッチ出力完了時の動作=Action on batch completion
-何もしない=None
-アプリケーションを終了=Exit Application
-PCをシャットダウン=Shutdown PC
-PCをスリープ=Sleep PC
+何もしない=Do nothing
+アプリケーションを終了=Exit application
+PCをシャットダウン=Shut down the PC
+PCをスリープ=Put PC to sleep
 言語ファイル情報=Language File Information
 情報=Information
 トラックバー移動=Move Mode
 開始位置=Start Position
 オフセット=Offset
-メインウィンドウの位置も保存する=Save Main Window Position
+メインウィンドウの位置も保存する=Save main window position
 マーク=Mark
 メモ=Memo
-プリセットを作成 - シーン=New Preset(Scene)
-高パフォーマンスGPUを優先=Prioritize High Performance GPU
+プリセットを作成 - シーン=Create Preset - Scene
+高パフォーマンスGPUを優先=Prioritize High-Performance GPUs
 出力プラグインの設定=Output Plugin
-プラグイン(表示順)=Plugin(Display Order)
+プラグイン(表示順)=Plugin (Display Order)
 
 [Effect]
 動画ファイル=Video File
@@ -253,7 +253,7 @@ PCをスリープ=Sleep PC
 パーティクル出力=Particle Output
 部分フィルタ=Part Effect
 グループ制御=Group Control
-グループ制御(音声)=Group Control(Audio)
+グループ制御(音声)=Group Control (Audio)
 カメラ制御=Camera Control
 音声波形表示=Audio Waveform
 色調補正=Color Correction
@@ -280,20 +280,20 @@ PCをスリープ=Sleep PC
 クロマキー=Chroma Key
 ルミナンスキー=Luminance Key
 カラーキー=Color Key
-エッジ抽出=Edge Extract
+エッジ抽出=Extract Edge
 波紋=Ripple
 ラスター=Wave Warp
 極座標変換=Polar Transform
-ディスプレイスメントマップ=Displacement
+ディスプレイスメントマップ=Displacement Map
 リサイズ=Resize
 シャープ=Sharpen
 ノイズ除去=Noise Reduction
 インターレース解除=Deinterlace
 ノイズ=Noise
 モザイク=Mosaic
-オフスクリーン描画=Offscreen Draw
+オフスクリーン描画=Off-screen Draw
 画像ループ=Image Loop
-オブジェクト分割=Object Divide
+オブジェクト分割=Split Object
 フェード=Fade
 ワイプ=Wipe
 シーンチェンジ=Scene Change
@@ -302,7 +302,7 @@ PCをスリープ=Sleep PC
 環境光(カメラ制御)=Ambient Light(Camera)
 ライトブルーム(カメラ制御)=Light Bloom(Camera)
 材質設定(カメラ制御)=Material(Camera)
-カメラ制御オプション=Camera Option
+カメラ制御オプション=Camera Control Options
 座標=Position
 拡大率=Zoom
 透明度=Transparent
@@ -323,7 +323,7 @@ PCをスリープ=Sleep PC
 仮想バッファ=Temporal Buffer
 仮想バッファ出力=Temp Buffer Output
 点光源(カメラ制御)=Point Light(Camera)
-スポット光源(カメラ制御)=Spot Light(Camera)
+スポット光源(カメラ制御)=Spot light source (Camera-Controlled)
 平行光源(カメラ制御)=Directional Light(Camera)
 フィルタオブジェクト=Filter Object
 拡張色調補正=Extended Color Correct
@@ -503,7 +503,7 @@ Z軸回転=Z Rotation
 生存時間=Lifetime
 移動範囲の座標からランダムに出力=Random Output from Movement Range Coordinates
 出力方向の基準を移動方向にする=Set Output Direction Based on Movement Direction
-回転角の基準を出力方向にする=Rotate To Output Direction
+回転角の基準を出力方向にする=Set Rotation Angle Based on Output Direction
 3Dランダム回転=3D Random Rotation
 波形の色=Waveform Color
 波形のプリセット=Waveform Preset
@@ -854,24 +854,24 @@ Z軸回転=Z Rotation
 X軸回転速度=X Rotation Speed
 Y軸回転速度=Y Rotation Speed
 Z軸回転速度=Z Rotation Speed
-回転角の基準=Rotate Angle
-回転角の基準をカメラ方向にする=Rotate To Camera Direction
+回転角の基準=Rotation Angle Reference
+回転角の基準をカメラ方向にする=Set Rotation Angle Based on Camera Direction
 スクリプト=Script
-画像の領域外を境界色とする=Outside Image Area Use Edge Color
-マップの領域外を境界色とする=Outside Map Area Use Edge Color
-RGB毎に乗算=Multiply Each RGB
+画像の領域外を境界色とする=Set the area outside the image as the border color
+マップの領域外を境界色とする=Set the area outside the map as the border color
+RGB毎に乗算=Multiply each RGB channel
 渦度=Vorticity
-うねり=Wave
-移動速度X=Move Speed X
-移動速度Y=Move Speed Y
+うねり=Swell
+移動速度X=Movement Speed X
+移動速度Y=Movement Speed Y
 スペクトル=Spectrum
 マップの反転=Invert Map
 色収差=Chromatic Aberration
-色収差(拡大)=Chromatic Aberration(Zoom)
+色収差(拡大)=Chromatic Aberration (Zoom)
 レイヤー名=Layer Name
 背景色=BG Color
 表示=Display
-片方向のみ=One Way Only
+片方向のみ=One-way only
 
 [Menu]
 ファイル=File
@@ -905,7 +905,7 @@ RGB毎に乗算=Multiply Each RGB
 オブジェクトのグループ化=Group Objects
 オブジェクトのグループ解除=Ungroup Objects
 現在のフレームのオブジェクトを選択=Select Objects at Current Frame
-現在のフレームのオブジェクトを選択(逆順)=Select Current Frame Object(Reverse)
+現在のフレームのオブジェクトを選択(逆順)=Select objects in the current frame (in reverse order)
 切り取り=Cut
 コピー=Copy
 貼り付け=Paste
@@ -1217,7 +1217,7 @@ YUVレンジ=YUV Range
 現在のレイヤー名を変更=Change Current Layer's Name
 現在のレイヤーの上に挿入=Insert New Layer Here
 現在のレイヤーを削除=Delete Current Layer
-シーン操作=Scene
+シーン操作=Scene Controls
 現在のシーンを複製=Duplicate Current Scene
 現在のシーンを削除=Delete Current Scene
 現在のシーン名を変更=Change Current Scene's Name
@@ -1263,7 +1263,7 @@ YUVレンジ=YUV Range
 現在以外のレイヤーを表示/非表示=Show/hide Layers except selected
 レイアウト=Layout
 レイアウトを作成=Create Layout
-ファイル出力を中断=Interrupt Export File
+ファイル出力を中断=Abort Export File
 参照式=Reference Expression
 コーデックの設定=Codec Settings
 繰り返し=Repeat
@@ -1271,51 +1271,51 @@ YUVレンジ=YUV Range
 バッチ出力=Batch Export
 状態=State
 未出力=Not Exported
-保留=On Hold
+保留=Pending
 完了を全て削除=Delete All Completed
 失敗を全て削除=Delete All Failed
-正常に完了したバッチを自動的に削除=Automatically Delete Completed Batch
+正常に完了したバッチを自動的に削除=Automatically delete completed batches
 言語ファイル情報=Language File Information
-クリップボードにPNG形式でコピー=Copy Clipboard In Png Format
-現在のシーンのグリッド(BPM)を設定=Setting Current Scene Grid(BPM)
-中間点と制御点をリンク=Link Object Point And Control Point
+クリップボードにPNG形式でコピー=Copy to the clipboard as PNG
+現在のシーンのグリッド(BPM)を設定=Set the grid (BPM) for the current scene
+中間点と制御点をリンク=Link Midpoints and Control Points
 横方向のみ=Horizontal Only
-スライダーの増減ボタンを纏める=Group Slider Buttons
+スライダーの増減ボタンを纏める=Group Increase/Decrease Buttons on a Slider
 フレームレート=Frame Rate
-標準=Normal
-オーディオの長さに合わせて調整=Adjust To Audio Duration
-強制フレームレート固定=Force Constant Frame Rate
-時間制御へ変更した時に中間点と制御点のリンクを有効にする=Enable Object Point And Control Point Link When Change To Time Control
-クリッピングオブジェクト=Clipping Object
-カメラ制御の対象=Camera Target Object
-クリッピングオブジェクトの有効・無効=Enable Clipping Object
-カメラ制御の対象オブジェクトの有効・無効=Enable Camera Target Object
-プレビュー再生をクリックで停止=Click To Stop Preview
+標準=Standard
+オーディオの長さに合わせて調整=Adjust to match audio duration
+強制フレームレート固定=Forced Frame Rate Lock
+時間制御へ変更した時に中間点と制御点のリンクを有効にする=Enable the link between midpoint and control point when switching to time control
+クリッピングオブジェクト=Clipping Objects
+カメラ制御の対象=Camera Control Target
+クリッピングオブジェクトの有効・無効=Enable/Disable Clipping Objects
+カメラ制御の対象オブジェクトの有効・無効=Enable/Disable Camera Target Objects
+プレビュー再生をクリックで停止=Click to Stop Preview
 フレームをマーク=Mark Frame
 マークを削除=Delete Mark
-マークのメモを変更=Change Mark Memo
-次のマークに移動=Next Mark
-前のマークに移動=Previous Mark
-現在のフレームをマーク=Mark Cursor Frame
+マークのメモを変更=Edit Mark Note
+次のマークに移動=Move to Next Mark
+前のマークに移動=Move to Previous Mark
+現在のフレームをマーク=Mark Current Frame
 マークリスト=Mark List
-グリッド(BPM)区間を追加=Add Grid(BPM)Section
-グリッド(BPM)区間を削除=Delete Grid(BPM)Section
-グリッド(BPM)区間を設定=Setting Grid(BPM)Section
-オブジェクトのフォーカス時にウィンドウを表示=Open Window When Focus Object
+グリッド(BPM)区間を追加=Add Grid (BPM)
+グリッド(BPM)区間を削除=Delete Grid (BPM)
+グリッド(BPM)区間を設定=Grid (BPM) Settings
+オブジェクトのフォーカス時にウィンドウを表示=Show Window When Object is Focused
 オブジェクトのクリック時にレイヤーを選択=Select Layer When Object is Clicked
-上のオブジェクトでクリッピング=Clipping With Upper Object
-上のオブジェクトでクリッピングの有効・無効=Enable Clipping With Upper Object
-現在のフレームにメディアオブジェクトを追加=Add Media Object To Cursor Frame
-現在のフレームにフィルタオブジェクトを追加=Add Filter Object To Cursor Frame
-オブジェクトにフィルタ効果を追加=Add Filter To Object
-オブジェクトにプリセットを適用=Apply Preset To Object
-カラーコードを常に表示=Always Display Color Code
-全て表示=Show All
+上のオブジェクトでクリッピング=Clip with the object above
+上のオブジェクトでクリッピングの有効・無効=Enable/Disable Clipping with the object above
+現在のフレームにメディアオブジェクトを追加=Add media object to current frame
+現在のフレームにフィルタオブジェクトを追加=Add filter object to current frame
+オブジェクトにフィルタ効果を追加=Add filter to object
+オブジェクトにプリセットを適用=Apply preset to object
+カラーコードを常に表示=Always display color code
+全て表示=Show all
 ラベルなし=Unlabeled
-シーンをプリセットから追加=Add Scene From Preset
-シーンのプリセットを作成=Create Scene Preset
-クリックした位置へ移動=Move To Click Position
-出力プラグインの設定=Output Plugin
+シーンをプリセットから追加=Add scene from preset
+シーンのプリセットを作成=Create scene preset
+クリックした位置へ移動=Move to the clicked position
+出力プラグインの設定=Output Plugin Settings
 ウィンドウのグループを作成=Create Window Group
 ウィンドウのグループに追加=Add Window Group
 ウィンドウのグループから外す=Remove Window Group
@@ -1420,28 +1420,28 @@ YUVレンジ=YUV Range
 クリック=Click
 ダブルクリック=Double Click
 Z軸回転の変更=Change rotation on Z axis
-縦横軸回転=rotate vertical/horizontal axis
-奥行き軸回転=rotate depth axis
+縦横軸回転=Rotate vertical/horizontal axis
+奥行き軸回転=Rotate depth axis
 正面に向ける=Face to the front
 既定のプリセットは変更出来ません=Default presets cannot be changed
-同名のレイアウトが存在しています\n変更しますか？=\n
-レイアウトの保存に失敗しました=failed save layout
-レイアウトの読み込みに失敗しました=failed load layout
-色を選択=select color
-設定のプリセットを保存=save setting preset
-設定のプリセットを保存しました=setting preset saved
-保存するプリセット名を指定してください=please set preset name to save
-参照式を編集=edit reference expression
-区間毎に設定=set each section
-ファイル出力に失敗しました=export file is failed
-削除しますか？=delete?
-削除出来ません=can not delete
-変更出来ません=can not change
-入力設定=setting input
-現在のフレームをマーク=mark cursor frame
-音声出力を切替=switch audio output
-{file}を設定=set {file}
-テキストの設定対象項目がありません=no item to text setting
+同名のレイアウトが存在しています\n変更しますか？=A layout with the same name already exists.\nDo you want to change it?
+レイアウトの保存に失敗しました=Failed to save layout
+レイアウトの読み込みに失敗しました=Failed to load layout
+色を選択=Select color
+設定のプリセットを保存=Save setting preset
+設定のプリセットを保存しました=Setting preset saved
+保存するプリセット名を指定してください=Please set preset name to save
+参照式を編集=Edit reference expression
+区間毎に設定=Set each section
+ファイル出力に失敗しました=Failed to export file
+削除しますか？=Delete?
+削除出来ません=Cannot be deleted
+変更出来ません=Cannot be changed
+入力設定=Input settings
+現在のフレームをマーク=Mark the current frame
+音声出力を切替=Switch Audio Output
+{file}を設定=Set {file}
+テキストの設定対象項目がありません=No text setting target items
 
 [Name]
 最小=Minimum
@@ -1455,13 +1455,13 @@ Z軸回転の変更=Change rotation on Z axis
 {app}をアンインストールしますか？=Are you sure you want to uninstall {app}?
 インストールフォルダ=Installation folder
 参照=Browse
-ディスクトップにアイコンを作成する=Create a desttop icon
+ディスクトップにアイコンを作成する=Create a desktop icon
 {ext}ファイルをアプリケーションに関連付ける=Associate {ext} files with the application
 OK=OK
 キャンセル=Cancel
 セットアップを中止しますか？=Are you sure you want to cancel the setup?
 インストールが完了しました=Installation is complete
-アンインストールが完了しました=Uninstallation is completed
+アンインストールが完了しました=Uninstallation is complete
 別のアプリケーションにファイルがロックされています=The file is locked by another application
 該当アプリケーションを終了して再試行してください=Please close the application and try again
 
@@ -1662,25 +1662,211 @@ effect.name=指定の音声ファイルや編集している音声の波形を�
 ぼかし=Blur
 範囲=Range
 縦横比=Compression
+光の強さ=Luminance Level
 サイズ固定=Lock Size
+
+[インターレース解除]
+インターレース解除=Deinterlace
+解除方法=Release Method
+
+[エッジ抽出]
+エッジ抽出=Extract Edge
+強さ=Intensity
+しきい値=Threshold
+色=Color
+輝度エッジを抽出=Extract Luminance Edge
+透明度エッジを抽出=Extract Transparency Edge
+
+[オフスクリーン描画]
+オフスクリーン描画=Off-screen Draw
+
+[オブジェクト分割]
+オブジェクト分割=Split Object
+横分割数=Horizontal Division
+縦分割数=Vertical Division
+
+[オーディオバッファ]
+オーディオバッファ=Audio Buffer
+オーディオバッファをクリア=Clear Audio Buffer
+
+[カウンター]
+カウンター=Counter
+初期値=Initial Value
+速度=Speed
+サイズ=Size
+表示形式=Display Format
+フォント名=Font Name
+装飾タイプ=Decoration Type
+文字色=Text Color
+影・縁色=Shadow/Edge Color
+
+[カメラ制御]
+カメラ制御=Camera Control
+X=X
+Y=Y
+Z=Z
+目標X=Target X
+目標Y=Target Y
+目標Z=Target Z
+目標レイヤー=Target Layer
+焦点レイヤー=Focus Layer
+傾き=Tilt
+深度ぼけ=Depth Blur
+視野角=Field of View
+対象レイヤー数=Number of Target Layers
+
+[カメラ制御オプション]
+カメラ制御オプション=Camera Control Options
+オブジェクトの向き=Object Orientation
+裏面を表示しない=Hide Back Face
 
 [カラーキー]
 カラーキー=Color Key
+輝度範囲=Luminance Range
+色差範囲=Color Difference Range
+境界補正=Edge Correction
+基準色=Reference Color
+
+[クリッピング]
+クリッピング=Clipping
+上=Top
+下=Bottom
+左=Left
+右=Right
+中心の位置を変更=Change Center Position
 
 [クロマキー]
 クロマキー=Chroma Key
+色相範囲=Hue Range
+彩度範囲=Saturation Range
+境界補正=Edge Correction
+基準色=Reference Color
+色彩補正=Color Correction
+透過補正=Transparency Correction
+
+[グラデーション]
+グラデーション=Gradient
+強さ=Intensity
+中心X=Center X
+中心Y=Center Y
+角度=Angle
+幅=Width
+合成モード=Blending Mode
+形状=Shape
+色補間=Color Interpolation
+開始色=Start Color
+終了色=End Color
+パターン画像=Pattern Image
+
+[グラデーションマップ]
+グラデーションマップ=Gradient Map
+強さ=Intensity
+色補間=Color Interpolation
+暗部色=Shadow Color
+明部色=Highlight Color
+パターン画像=Pattern Image
+
+[グループ制御]
+グループ制御=Group Control
+X=X
+Y=Y
+Z=Z
+X軸回転=Rotate X
+Y軸回転=Rotate Y
+Z軸回転=Rotate Z
+拡大率=Zoom
+対象レイヤー数=Number of Target Layers
+
+[グループ制御(音声)]
+グループ制御(音声)=Group Control (Audio)
+音量=Volume
+左右=Left/Right
+対象レイヤー数=Number of Target Layers
 
 [グロー]
 グロー=Glow
 強さ=Intensity
+拡散=Diffusion
+角度=Angle
+しきい値=Threshold
+比率=Ratio
+ぼかし=Blur
+形状=Shape
+光色=Light Color
+光成分のみ=Light Component Only
+サイズ固定=Fixed Size
 
 [シャープ]
 シャープ=Sharpen
+強さ=Intensity
+範囲=Range
+
+[シーン]
+シーン=Scene
+再生位置=Playback Position
+再生速度=Playback Speed
+ループ再生=Loop
+
+[シーンチェンジ]
+シーンチェンジ=Scene Change
+種類=Type
+角度=Angle
+分割数=Division Count
+ぼかし=Blur
+縦方向=Vertical
+反転=Invert
+縦横比固定=Fixed Aspect Ratio
+
+[スクリプト制御]
+スクリプト制御=Script Control
+スクリプト=Script
+
+[スポット光源(カメラ制御)]
+スポット光源(カメラ制御)=Spot light source (Camera-Controlled)
+X=X
+Y=Y
+Z=Z
+目標X=Target X
+目標Y=Target Y
+目標Z=Target Z
+明るさ=Brightness
+減衰=Decay
+範囲=Range
+ぼかし=Blur
+色=Color
+影を付ける=Add shadows
 
 [テキスト]
+テキスト=Text
+サイズ=Size
+字間=Character Spacing
+行間=Line Spacing
+表示速度=Display Speed
 フォント=Font
 文字色=Text Color
+影・縁色=Shadow/Edge Color
+文字装飾=Text Decoration
+文字揃え=Text Alignment
+B=B
+I=I
+文字毎に個別オブジェクト=Individual Objects per Character
 自動スクロール=Auto Scroll
+移動座標上に表示=Display Moving Position
+オブジェクトの長さを自動調節=Auto-adjust Object Length
+
+[ディスプレイスメントマップ]
+ディスプレイスメントマップ=Displacement Map
+X=X
+Y=Y
+回転=Rotation
+サイズ=Size
+縦横比=Aspect
+ぼかし=Blur
+変形X=Transform X
+変形Y=Transform Y
+拡大変形=Transform Zoom
+拡大縦横=Transform Aspect
+回転変形=Transform Rotation
 
 [ドア(シーンチェンジ)]
 ドア(シーンチェンジ)=Door (Transition)

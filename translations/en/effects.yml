@@ -8,17 +8,291 @@
   # Aspect
   '縦横比': |
     Compression
+  # LuminanceLevel
+  '光の強さ': |
+    Luminance Level
   # FixedSize
   'サイズ固定': |
     Lock Size
+'インターレース解除':
+  # Deinterlace
+  'インターレース解除': |
+    Deinterlace
+  # Method
+  '解除方法': |
+    Release Method
+'エッジ抽出':
+  # EdgeExtract
+  'エッジ抽出': |
+    Extract Edge
+  # Level
+  '強さ': |
+    Intensity
+  # Threshold
+  'しきい値': |
+    Threshold
+  # Color
+  '色': |
+    Color
+  # LuminanceEdge
+  '輝度エッジを抽出': |
+    Extract Luminance Edge
+  # TransparentCorrectEdge
+  '透明度エッジを抽出': |
+    Extract Transparency Edge
+'オフスクリーン描画':
+  # OffscreenDraw
+  'オフスクリーン描画': |
+    Off-screen Draw
+'オブジェクト分割':
+  # ObjectDivide
+  'オブジェクト分割': |
+    Split Object
+  # DivideNumX
+  '横分割数': |
+    Horizontal Division
+  # DivideNumY
+  '縦分割数': |
+    Vertical Division
+'オーディオバッファ':
+  # AudioBuffer
+  'オーディオバッファ': |
+    Audio Buffer
+  # ClearAudioBuffer
+  'オーディオバッファをクリア': |
+    Clear Audio Buffer
+'カウンター':
+  # Counter
+  'カウンター': |
+    Counter
+  # InitialValue
+  '初期値': |
+    Initial Value
+  # Speed
+  '速度': |
+    Speed
+  # Size
+  'サイズ': |
+    Size
+  # DisplayFormat
+  '表示形式': |
+    Display Format
+  # (No default text available)
+  'フォント名': |
+    Font Name
+  # DecorationType
+  '装飾タイプ': |
+    Decoration Type
+  # TextColor
+  '文字色': |
+    Text Color
+  # BorderColor
+  '影・縁色': |
+    Shadow/Edge Color
+'カメラ制御':
+  # CameraControl
+  'カメラ制御': |
+    Camera Control
+  # (No default text available)
+  'X': |
+    X
+  # (No default text available)
+  'Y': |
+    Y
+  # (No default text available)
+  'Z': |
+    Z
+  # TargetX
+  '目標X': |
+    Target X
+  # TargetY
+  '目標Y': |
+    Target Y
+  # TargetZ
+  '目標Z': |
+    Target Z
+  # TargetLayer
+  '目標レイヤー': |
+    Target Layer
+  # FocusLayer
+  '焦点レイヤー': |
+    Focus Layer
+  # Tilt
+  '傾き': |
+    Tilt
+  # DepthBlur
+  '深度ぼけ': |
+    Depth Blur
+  # ViewAngle
+  '視野角': |
+    Field of View
+  # LayerRange
+  '対象レイヤー数': |
+    Number of Target Layers
+'カメラ制御オプション':
+  # CameraOption
+  'カメラ制御オプション': |
+    Camera Control Options
+  # BillboardType
+  'オブジェクトの向き': |
+    Object Orientation
+  # Culling
+  '裏面を表示しない': |
+    Hide Back Face
 'カラーキー':
   # ColorKey
   'カラーキー': |
     Color Key
+  # LuminanceRange
+  '輝度範囲': |
+    Luminance Range
+  # ColorRange
+  '色差範囲': |
+    Color Difference Range
+  # BorderCorrect
+  '境界補正': |
+    Edge Correction
+  # BaseColor
+  '基準色': |
+    Reference Color
+'クリッピング':
+  # Clipping
+  'クリッピング': |
+    Clipping
+  # Top
+  '上': |
+    Top
+  # Bottom
+  '下': |
+    Bottom
+  # Left
+  '左': |
+    Left
+  # Right
+  '右': |
+    Right
+  # AdjustCenter
+  '中心の位置を変更': |
+    Change Center Position
 'クロマキー':
   # ChromaKey
   'クロマキー': |
     Chroma Key
+  # HueRange
+  '色相範囲': |
+    Hue Range
+  # ChromaRange
+  '彩度範囲': |
+    Saturation Range
+  # BorderCorrect
+  '境界補正': |
+    Edge Correction
+  # BaseColor
+  '基準色': |
+    Reference Color
+  # ChromaCorrect
+  '色彩補正': |
+    Color Correction
+  # TransparentCorrect
+  '透過補正': |
+    Transparency Correction
+'グラデーション':
+  # Gradient
+  'グラデーション': |
+    Gradient
+  # Level
+  '強さ': |
+    Intensity
+  # CenterX
+  '中心X': |
+    Center X
+  # CenterY
+  '中心Y': |
+    Center Y
+  # Angle
+  '角度': |
+    Angle
+  # Width
+  '幅': |
+    Width
+  # Blend
+  '合成モード': |
+    Blending Mode
+  # Form
+  '形状': |
+    Shape
+  # ColorInterp
+  '色補間': |
+    Color Interpolation
+  # StartColor
+  '開始色': |
+    Start Color
+  # EndColor
+  '終了色': |
+    End Color
+  # PatternImage
+  'パターン画像': |
+    Pattern Image
+'グラデーションマップ':
+  # GradientMap
+  'グラデーションマップ': |
+    Gradient Map
+  # Level
+  '強さ': |
+    Intensity
+  # ColorInterp
+  '色補間': |
+    Color Interpolation
+  # ShadowColor
+  '暗部色': |
+    Shadow Color
+  # HighlightColor
+  '明部色': |
+    Highlight Color
+  # PatternImage
+  'パターン画像': |
+    Pattern Image
+'グループ制御':
+  # GroupControl
+  'グループ制御': |
+    Group Control
+  # (No default text available)
+  'X': |
+    X
+  # (No default text available)
+  'Y': |
+    Y
+  # (No default text available)
+  'Z': |
+    Z
+  # RotateX
+  'X軸回転': |
+    Rotate X
+  # RotateY
+  'Y軸回転': |
+    Rotate Y
+  # RotateZ
+  'Z軸回転': |
+    Rotate Z
+  # Zoom
+  '拡大率': |
+    Zoom
+  # LayerRange
+  '対象レイヤー数': |
+    Number of Target Layers
+'グループ制御(音声)':
+  # GroupControl(Audio)
+  'グループ制御(音声)': |
+    Group Control (Audio)
+  # Volume
+  '音量': |
+    Volume
+  # Balance
+  '左右': |
+    Left/Right
+  # LayerRange
+  '対象レイヤー数': |
+    Number of Target Layers
 'グロー':
   # Glow
   'グロー': |
@@ -26,20 +300,214 @@
   # Level
   '強さ': |
     Intensity
+  # Diffusion
+  '拡散': |
+    Diffusion
+  # Angle
+  '角度': |
+    Angle
+  # Threshold
+  'しきい値': |
+    Threshold
+  # Ratio
+  '比率': |
+    Ratio
+  # Blur
+  'ぼかし': |
+    Blur
+  # Form
+  '形状': |
+    Shape
+  # LightColor
+  '光色': |
+    Light Color
+  # OnlyLightComponent
+  '光成分のみ': |
+    Light Component Only
+  # FixedSize
+  'サイズ固定': |
+    Fixed Size
 'シャープ':
   # Sharpe
   'シャープ': |
     Sharpen
+  # Level
+  '強さ': |
+    Intensity
+  # Range
+  '範囲': |
+    Range
+'シーン':
+  # Scene
+  'シーン': |
+    Scene
+  # PlaybackPosition
+  '再生位置': |
+    Playback Position
+  # PlaybackSpeed
+  '再生速度': |
+    Playback Speed
+  # Loop
+  'ループ再生': |
+    Loop
+'シーンチェンジ':
+  # SceneChange
+  'シーンチェンジ': |
+    Scene Change
+  # Type
+  '種類': |
+    Type
+  # Angle
+  '角度': |
+    Angle
+  # DivideNum
+  '分割数': |
+    Division Count
+  # Blur
+  'ぼかし': |
+    Blur
+  # Vertical
+  '縦方向': |
+    Vertical
+  # Invert
+  '反転': |
+    Invert
+  # FixedAspect
+  '縦横比固定': |
+    Fixed Aspect Ratio
+'スクリプト制御':
+  # ScriptControl
+  'スクリプト制御': |
+    Script Control
+  # Script
+  'スクリプト': |
+    Script
+'スポット光源(カメラ制御)':
+  # SpotLight(Camera)
+  'スポット光源(カメラ制御)': |
+    Spot light source (Camera-Controlled)
+  # (No default text available)
+  'X': |
+    X
+  # (No default text available)
+  'Y': |
+    Y
+  # (No default text available)
+  'Z': |
+    Z
+  # TargetX
+  '目標X': |
+    Target X
+  # TargetY
+  '目標Y': |
+    Target Y
+  # TargetZ
+  '目標Z': |
+    Target Z
+  # Brightness
+  '明るさ': |
+    Brightness
+  # Decay
+  '減衰': |
+    Decay
+  # Range
+  '範囲': |
+    Range
+  # Blur
+  'ぼかし': |
+    Blur
+  # Color
+  '色': |
+    Color
+  # AddShadow
+  '影を付ける': |
+    Add shadows
 'テキスト':
+  # Text
+  'テキスト': |
+    Text
+  # Size
+  'サイズ': |
+    Size
+  # CharSpacing
+  '字間': |
+    Character Spacing
+  # LineSpacing
+  '行間': |
+    Line Spacing
+  # ViewSpeed
+  '表示速度': |
+    Display Speed
   # Font
   'フォント': |
     Font
   # TextColor
   '文字色': |
     Text Color
+  # BorderColor
+  '影・縁色': |
+    Shadow/Edge Color
+  # TextDecoration
+  '文字装飾': |
+    Text Decoration
+  # TextAlignment
+  '文字揃え': |
+    Text Alignment
+  # (No default text available)
+  'B': |
+    B
+  # (No default text available)
+  'I': |
+    I
+  # IndividualText
+  '文字毎に個別オブジェクト': |
+    Individual Objects per Character
   # AutoScroll
   '自動スクロール': |
     Auto Scroll
+  # DisplayMovingPosition
+  '移動座標上に表示': |
+    Display Moving Position
+  # AutoAdjustObject
+  'オブジェクトの長さを自動調節': |
+    Auto-adjust Object Length
+'ディスプレイスメントマップ':
+  # Displacement
+  'ディスプレイスメントマップ': |
+    Displacement Map
+  # (No default text available)
+  'X': |
+    X
+  # (No default text available)
+  'Y': |
+    Y
+  # Rotate
+  '回転': |
+    Rotation
+  # Size
+  'サイズ': |
+    Size
+  # Aspect
+  '縦横比': |
+    Aspect
+  # Blur
+  'ぼかし': |
+    Blur
+  # TransformX
+  '変形X': |
+    Transform X
+  # TransformY
+  '変形Y': |
+    Transform Y
+  # ZoomTransform
+  '拡大変形': |
+    Transform Zoom
+  # ZoomAspect
+  '拡大縦横': |
+    Transform Aspect
+  # RotateTransform
+  '回転変形': |
+    Transform Rotation
 'ドア(シーンチェンジ)':
   # Door(SceneChange)
   'ドア(シーンチェンジ)': |
