@@ -3716,6 +3716,22 @@
   'ウィンドウのグループから外す': |
     ウィンドウのグループから外す
 
+  # RulerDisplayFormat
+  '目盛りの表示形式': |
+    目盛りの表示形式
+
+  # TimeBased
+  '時間単位': |
+    時間単位
+
+  # FrameBased
+  'フレーム単位': |
+    フレーム単位
+
+  # DisplayObjectCenterPoint
+  'オブジェクトの中心点を表示': |
+    オブジェクトの中心点を表示
+
 'Message':
   # exporting file
   'ファイル出力中': |
@@ -4750,10 +4766,6 @@
   'シーンを複製': |
     シーンを複製
 
-  # Alt+LeftClickDragToRghtClickDrag
-  'Alt+左クリックドラッグで右クリックドラッグ操作': |
-    Alt+左クリックドラッグで右クリックドラッグ操作
-
   # Please enter key
   'キーを入力してください': |
     キーを入力してください
@@ -5109,6 +5121,26 @@
   # Plugin(DisplayOrder)
   'プラグイン(表示順)': |
     プラグイン(表示順)
+
+  # OutputFrameRateConv
+  '出力フレームレート変換': |
+    出力フレームレート変換
+
+  # Resize
+  'リサイズ': |
+    リサイズ
+
+  # Convert
+  '変換': |
+    変換
+
+  # WheelClickToRightClick
+  'ホイールクリックで右クリック操作': |
+    ホイールクリックで右クリック操作
+
+  # Alt+LeftClickToRghtClick
+  'Alt+左クリックで右クリック操作': |
+    Alt+左クリックで右クリック操作
 
 'Name':
   # Min

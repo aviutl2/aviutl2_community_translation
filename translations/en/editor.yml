@@ -3574,9 +3574,6 @@
   # DuplicateScene
   'シーンを複製': |
     Duplicate Scene
-  # Alt+LeftClickDragToRghtClickDrag
-  'Alt+左クリックドラッグで右クリックドラッグ操作': |
-    Assign right-drag to Alt + left-drag
   # Please enter key
   'キーを入力してください': |
     Input the key

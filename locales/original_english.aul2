@@ -1114,6 +1114,10 @@ YUVレンジ=YUVColorRange
 ウィンドウのグループを作成=CreateWindowGroup
 ウィンドウのグループに追加=AddWindowGroup
 ウィンドウのグループから外す=RemoveWindowGroup
+目盛りの表示形式=RulerDisplayFormat
+時間単位=TimeBased
+フレーム単位=FrameBased
+オブジェクトの中心点を表示=DisplayObjectCenterPoint
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ
@@ -1375,7 +1379,6 @@ VRAMデータキャッシュサイズ [MB]=VramDataCacheSize[MB]
 決定ボタンが無い時のみ=When no OK button
 ダイアログをEnterキーで決定=ConfirmDialogEnterKey
 シーンを複製=DuplicateScene
-Alt+左クリックドラッグで右クリックドラッグ操作=Alt+LeftClickDragToRghtClickDrag
 キーを入力してください=Please enter key
 フィルタプラグイン=FilterPlugin
 スクリプトモジュール=ScriptModule
@@ -1465,6 +1468,11 @@ PCをスリープ=SleepPC
 高パフォーマンスGPUを優先=PrioritizeHighPerformanceGPU
 出力プラグインの設定=OutputPlugin
 プラグイン(表示順)=Plugin(DisplayOrder)
+出力フレームレート変換=OutputFrameRateConv
+リサイズ=Resize
+変換=Convert
+ホイールクリックで右クリック操作=WheelClickToRightClick
+Alt+左クリックで右クリック操作=Alt+LeftClickToRghtClick
 ;OK=OK
 ;Cancel=Cancel
 

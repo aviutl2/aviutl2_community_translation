@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - English (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1739 of 1959 entries (88.77%).
+; Translated 1738 of 1967 entries (88.36%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -146,7 +146,6 @@ VRAMデータキャッシュサイズ [MB]=VRAM Data Cache Size [MB]
 決定ボタンが無い時のみ=Only When There Is No Confirm Button
 ダイアログをEnterキーで決定=Confirm Dialog with Enter Key
 シーンを複製=Duplicate Scene
-Alt+左クリックドラッグで右クリックドラッグ操作=Assign right-drag to Alt + left-drag
 キーを入力してください=Input the key
 フィルタプラグイン=Filter Plugin
 スクリプトモジュール=Script Module
@@ -236,6 +235,11 @@ PCをスリープ=Put PC to sleep
 高パフォーマンスGPUを優先=Prioritize High-Performance GPUs
 出力プラグインの設定=Output Plugin
 プラグイン(表示順)=Plugin (Display Order)
+出力フレームレート変換=Output Frame Rate Conv
+リサイズ=Resize
+変換=Convert
+ホイールクリックで右クリック操作=Wheel Click To Right Click
+Alt+左クリックで右クリック操作=Alt+Left Click To Rght Click
 
 [Effect]
 動画ファイル=Video File
@@ -1319,6 +1323,10 @@ YUVレンジ=YUV Range
 ウィンドウのグループを作成=Create Window Group
 ウィンドウのグループに追加=Add Window Group
 ウィンドウのグループから外す=Remove Window Group
+目盛りの表示形式=Ruler Display Format
+時間単位=Time Based
+フレーム単位=Frame Based
+オブジェクトの中心点を表示=Display Object Center Point
 
 [Message]
 ファイル出力中=Exporting File
