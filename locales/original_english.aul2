@@ -19,7 +19,8 @@
 ; 言語ファイルの情報
 Information=Simple English Language by Kenkun
 ; サブ言語設定(カンマ区切りで複数指定可) ※メイン言語に対応項目が存在しない時に参照される
-;SubLanguage=English
+; Defaultを指定するとDefault言語の差分ファイル、ツールチップ定義が参照される(Defaultは最後に参照されます)
+SubLanguage=Default
 
 [Effect]
 ; オブジェクト、フィルタ効果の名称
@@ -1118,6 +1119,13 @@ YUVレンジ=YUVColorRange
 時間単位=TimeBased
 フレーム単位=FrameBased
 オブジェクトの中心点を表示=DisplayObjectCenterPoint
+マークをロック=LockMark
+グリッド(BPM)区間をロック=LockGrid(BPM)Section
+テキスト編集を表示=ShowTextEditor
+制御文字=ControlCode
+色=Color
+フォント=Font
+絵文字=Emoji
 
 [Message]
 ; ツールチップ、メッセージボックス等のメッセージ
@@ -1242,6 +1250,7 @@ Z軸回転の変更=change rotate z
 音声出力を切替=switch audio output
 {file}を設定=set {file}
 テキストの設定対象項目がありません=no item to text setting
+移動操作をロック=lock move
 
 [Dialog]
 ; ダイアログ内の名称

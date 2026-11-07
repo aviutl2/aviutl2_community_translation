@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - English (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1738 of 1967 entries (88.36%).
+; Translated 1738 of 1975 entries (88.0%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -1327,6 +1327,13 @@ YUVレンジ=YUV Range
 時間単位=Time Based
 フレーム単位=Frame Based
 オブジェクトの中心点を表示=Display Object Center Point
+マークをロック=Lock Mark
+グリッド(BPM)区間をロック=Lock Grid(BPM)Section
+テキスト編集を表示=Show Text Editor
+制御文字=Control Code
+色=Color
+フォント=Font
+絵文字=Emoji
 
 [Message]
 ファイル出力中=Exporting File
@@ -1450,6 +1457,7 @@ Z軸回転の変更=Change rotation on Z axis
 音声出力を切替=Switch Audio Output
 {file}を設定=Set {file}
 テキストの設定対象項目がありません=No text setting target items
+移動操作をロック=lock move
 
 [Name]
 最小=Minimum

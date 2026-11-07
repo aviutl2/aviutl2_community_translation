@@ -3732,6 +3732,34 @@
   'オブジェクトの中心点を表示': |
     オブジェクトの中心点を表示
 
+  # LockMark
+  'マークをロック': |
+    マークをロック
+
+  # LockGrid(BPM)Section
+  'グリッド(BPM)区間をロック': |
+    グリッド(BPM)区間をロック
+
+  # ShowTextEditor
+  'テキスト編集を表示': |
+    テキスト編集を表示
+
+  # ControlCode
+  '制御文字': |
+    制御文字
+
+  # Color
+  '色': |
+    色
+
+  # Font
+  'フォント': |
+    フォント
+
+  # Emoji
+  '絵文字': |
+    絵文字
+
 'Message':
   # exporting file
   'ファイル出力中': |
@@ -4228,6 +4256,10 @@
   # no item to text setting
   'テキストの設定対象項目がありません': |
     テキストの設定対象項目がありません
+
+  # lock move
+  '移動操作をロック': |
+    移動操作をロック
 
 'Dialog':
   # NewScene
