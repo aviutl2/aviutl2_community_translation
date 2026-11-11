@@ -2787,6 +2787,15 @@
   # RemoveWindowGroup
   'ウィンドウのグループから外す': |
     Remove Window Group
+  # Color
+  '色': |
+    Color
+  # Font
+  'フォント': |
+    Font
+  # Emoji
+  '絵文字': |
+    Emoji
 'Message':
   # exporting file
   'ファイル出力中': |
@@ -3841,6 +3850,9 @@
   # Plugin(DisplayOrder)
   'プラグイン(表示順)': |
     Plugin (Display Order)
+  # Resize
+  'リサイズ': |
+    Resize
 'Name':
   # Min
   '最小': |
