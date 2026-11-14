@@ -1,6 +1,6 @@
 ; AviUtl2 Community Translation - English (en)
 ; Generated automatically. Do not edit directly.
-; Translated 1742 of 1975 entries (88.2%).
+; Translated 1740 of 1983 entries (87.75%).
 ; Source:
 ;   https://github.com/aviutl2/aviutl2_community_translation
 
@@ -240,6 +240,7 @@ PCをスリープ=Put PC to sleep
 変換=Convert
 ホイールクリックで右クリック操作=Wheel Click To Right Click
 Alt+左クリックで右クリック操作=Alt+Left Click To Rght Click
+シーンチェンジ=Scene Change
 
 [Effect]
 動画ファイル=Video File
@@ -876,6 +877,9 @@ RGB毎に乗算=Multiply each RGB channel
 背景色=BG Color
 表示=Display
 片方向のみ=One-way only
+中間色=Mid Color
+位相=Phase
+マップのループ=Loop Map
 
 [Menu]
 ファイル=File
@@ -1458,6 +1462,9 @@ Z軸回転の変更=Change rotation on Z axis
 {file}を設定=Set {file}
 テキストの設定対象項目がありません=No text setting target items
 移動操作をロック=lock move
+色を追加=add color
+色を削除=delete color
+色の位置を指定=set color position
 
 [Name]
 最小=Minimum
@@ -1502,16 +1509,19 @@ effect.name=画像をグラデーションさせます
 合成モード=グラデーションの合成方法を指定します
 形状=グラデーションの形状を指定します
 色補間=指定した色の間を補間する色空間を指定します
-開始色=グラデーションの開始位置の色を指定します
+開始色=グラデーションの開始位置の色を指定します\n中間色を追加することが出来ます
 終了色=グラデーションの終了位置の色を指定します
 パターン画像=グラデーションの色(カラーバー)の画像を指定します
 
 [Tips.グラデーションマップ]
 effect.name=画像の明暗に合わせて色を置き換えます
+位相=グラデーションの明暗の開始位置を指定します
+周期=グラデーションの明暗の周期を指定します
 色補間=指定した色の間を補間する色空間を指定します
-暗部色=グラデーションの暗部の色を指定します
+暗部色=グラデーションの暗部の色を指定します\n中間色を追加することが出来ます
 明部色=グラデーションの明部の色を指定します
 パターン画像=グラデーションの色(カラーバー)の画像を指定します
+マップのループ=グラデーションの明暗でループするかを指定します
 
 [Tips.グループ制御]
 effect.name=下位のレイヤーにあるオブジェクトの座標を纏めて制御します
@@ -1770,7 +1780,6 @@ Z=Z
 合成モード=Blending Mode
 形状=Shape
 色補間=Color Interpolation
-開始色=Start Color
 終了色=End Color
 パターン画像=Pattern Image
 
@@ -1778,7 +1787,6 @@ Z=Z
 グラデーションマップ=Gradient Map
 強さ=Intensity
 色補間=Color Interpolation
-暗部色=Shadow Color
 明部色=Highlight Color
 パターン画像=Pattern Image
 

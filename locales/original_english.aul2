@@ -6,7 +6,7 @@
 ; "English.xxx.aul2" は「English」の設定として上書き結合される
 ; Default言語は "Default.xxx.aul2" のような差分ファイルのみ読み込まれる 
 ;
-; フィルタ名やスクリプト名のセクションが存在すると優先して参照される
+; フィルタ名やスクリプト名、プラグイン名のセクションが存在すると優先して参照される
 ; 「ぼかし」フィルタの名称や設定項目名は [ぼかし] セクションを先に参照する
 ;
 ; [Tips.ぼかし] のようなフィルタ名に "Tips." を付けたセクションを定義すると
@@ -666,6 +666,9 @@ RGB毎に乗算=MultiplyEachRGB
 背景色=BG Color
 表示=Display
 片方向のみ=OneWayOnly
+中間色=MidColor
+位相=Phase
+マップのループ=LoopMap
 
 [Menu]
 ; ウィンドウメニュー、ポップアップメニューの項目名
@@ -1251,6 +1254,9 @@ Z軸回転の変更=change rotate z
 {file}を設定=set {file}
 テキストの設定対象項目がありません=no item to text setting
 移動操作をロック=lock move
+色を追加=add color
+色を削除=delete color
+色の位置を指定=set color position
 
 [Dialog]
 ; ダイアログ内の名称
@@ -1482,6 +1488,7 @@ PCをスリープ=SleepPC
 変換=Convert
 ホイールクリックで右クリック操作=WheelClickToRightClick
 Alt+左クリックで右クリック操作=Alt+LeftClickToRghtClick
+シーンチェンジ=SceneChange
 ;OK=OK
 ;Cancel=Cancel
 

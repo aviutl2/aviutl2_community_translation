@@ -224,9 +224,6 @@
   # ColorInterp
   '色補間': |
     Color Interpolation
-  # StartColor
-  '開始色': |
-    Start Color
   # EndColor
   '終了色': |
     End Color
@@ -243,9 +240,6 @@
   # ColorInterp
   '色補間': |
     Color Interpolation
-  # ShadowColor
-  '暗部色': |
-    Shadow Color
   # HighlightColor
   '明部色': |
     Highlight Color

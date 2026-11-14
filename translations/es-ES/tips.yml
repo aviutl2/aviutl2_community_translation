@@ -18,9 +18,6 @@
   # 指定した色の間を補間する色空間を指定します
   '色補間': |
     Especifica un espacio de color para la interpolación entre colores específicos
-  # グラデーションの暗部の色を指定します
-  '暗部色': |
-    Especifique el color de las zonas resaltadas en el degradado
   # グラデーションの明部の色を指定します
   '明部色': |
     Especifique el color de las zonas resaltadas en el degradado

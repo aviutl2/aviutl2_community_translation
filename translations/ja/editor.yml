@@ -1935,6 +1935,18 @@
   '片方向のみ': |
     片方向のみ
 
+  # MidColor
+  '中間色': |
+    中間色
+
+  # Phase
+  '位相': |
+    位相
+
+  # LoopMap
+  'マップのループ': |
+    マップのループ
+
 'Menu':
   # File
   'ファイル': |
@@ -4261,6 +4273,18 @@
   '移動操作をロック': |
     移動操作をロック
 
+  # add color
+  '色を追加': |
+    色を追加
+
+  # delete color
+  '色を削除': |
+    色を削除
+
+  # set color position
+  '色の位置を指定': |
+    色の位置を指定
+
 'Dialog':
   # NewScene
   'シーンを作成': |
@@ -5173,6 +5197,10 @@
   # Alt+LeftClickToRghtClick
   'Alt+左クリックで右クリック操作': |
     Alt+左クリックで右クリック操作
+
+  # SceneChange
+  'シーンチェンジ': |
+    シーンチェンジ
 
 'Name':
   # Min
